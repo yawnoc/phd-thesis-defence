@@ -220,6 +220,11 @@
   If you had funding for another 6 months of research,
   what would you do to extend this study?
   """"
+  ----
+  Definitely I would further develop the ideas in Appendix~C
+  (boundary tracing in the __complex plane__ using __conformal mapping__).
+  This looks promising for future research.
+  ----
 ++++++
 
 
