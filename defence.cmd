@@ -156,7 +156,7 @@
   """"
   ----
   When something interesting happens
-  (e.g.~a terminal point appears or disappears)
+  (e.g.~a terminal point or curve appears or disappears)
   I call it a __transition__.
   The naming of regimes on either side of a transition
   comes from the dimensionless group~<var>A</var>.
