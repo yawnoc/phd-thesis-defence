@@ -63,6 +63,63 @@
 
 ### Questions ###
 
+++++
+1.{#1-summary}
+
+  """"{.examiner}
+  Please summarise in 5~minutes
+  the main aims, methods and results of your work
+  """"
+
+2.{#1-negligible}
+
+  """"{.examiner}
+  P37. You mention that you wish to find
+  when the self-viewing radiation is 'practically negligible'.
+  How do you quantify this?
+  """"
+
+3.{#1-diagram}
+
+  """"{.examiner}
+  P41. This is a very complicated diagram. Please interpret it.
+  """"
+
+4.{#1-regimes}
+
+  """"{.examiner}
+  P48. Explain how you differentiate between the hot/transition/ cold regimes.
+  """"
+
+5.{#1-novelty}
+
+  """"{.examiner}
+  Chapter~6.
+  Here you claim you have introduced some novelty in the numerical work.
+  Please explain this. What makes it novel?
+  """"
+
+6.{#1-publication}
+
+  """"{.examiner}
+  Which of your results are worthy of publication?
+  """"
+
+7.{#1-proud}
+
+  """"{.examiner}
+  What results(s) is/are you most proud of? Why?
+  """"
+
+8.{#1-extend}
+
+  """"{.examiner}
+  If you had funding for another 6 months of research,
+  what would you do to extend this study?
+  """"
+++++
+
+
 ### Revisions ###
 
 ++++
