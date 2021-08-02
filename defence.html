@@ -13,6 +13,7 @@
 @page {
 border-top: var(--solid-line);
 margin: 2cm;
+padding-top: 0.3em;
 size: A4;
 @top-left {
 content: "Conway Li";
@@ -32,6 +33,7 @@ text-decoration: none;
 blockquote {
 border-left: var(--solid-line-thick);
 margin-left: 0.5em;
+margin-bottom: 0;
 padding: 0.3em 0.5em;
 }
 body {
@@ -52,11 +54,12 @@ margin-top: 0;
 h3 {
 font-size: 1.2em;
 }
-ol {
-padding-left: 1.3em;
-}
-ol > li {
+ol.top-level > li {
 margin-bottom: 1.3em;
+}
+ol, ul {
+margin-top: 0.3em;
+padding-left: 1.7em;
 }
 p {
 margin-top: 0.5em;
@@ -72,7 +75,7 @@ font-family: Arimo, sans-serif;
 <h1>Ph.D. Defence</h1>
 <h2>Examiner&nbsp;1</h2>
 <h3>Questions</h3>
-<ol>
+<ol class="top-level">
 <li id="1-summary"><blockquote class="examiner">
 Please summarise in 5&nbsp;minutes
 the main aims, methods and results of your work
@@ -85,9 +88,9 @@ How do you quantify this?
 </blockquote>
 <p>
 By 'practically negligible' I mean that
-the <b>dimensionless self-viewing ratio&nbsp;R falls below&nbsp;1%</b>
+the <b>dimensionless self-viewing ratio&nbsp;<code>R</code> falls below&nbsp;<code>1%</code></b>
 (which is an arbitrarily chosen cutoff).
-At any point on the boundary, R&nbsp;is the ratio between
+At any point on the boundary, <code>R</code>&nbsp;is the ratio between
 the amount of inbound self-viewing radiation
 (which boundary tracing does <em>not</em> account for)
 and the amount of outbound radiation.
@@ -96,6 +99,48 @@ and the amount of outbound radiation.
 <li id="1-diagram"><blockquote class="examiner">
 P41. This is a very complicated diagram. Please interpret it.
 </blockquote>
+<p>
+Figure&nbsp;3.22a shows the process of constructing
+an asymmetric conduction–radiation domain
+for a specific cosinusoidal solution.
+We have the following:
+</p>
+<ul>
+<li>[Solid black curves]:
+<b>traced boundaries</b>, which satisfy the radiation condition.
+There are two branches of these (upper and lower).
+</li>
+<li>[Dotted black line]:
+<b>constant-temperature</b> (heat-supplying) boundary.
+</li>
+<li>[Grey regions]:
+<b>non-viable domain</b>, in which traced boundaries do not exist.
+</li>
+<li>[Grey curves]:
+<b>inflection frontiers</b>,
+where each branch of traced boundaries inflects.
+</li>
+</ul>
+<p>
+To successfully construct a convex domain,
+we need portions of traced boundary that
+</p>
+<ol>
+<li>lie convex side of the relevant inflection frontiers,
+</li>
+<li>reach the constant-temperature (heat-supplying) boundary, and
+</li>
+<li>reach the line of symmetry&nbsp;<code>y = 0</code> (for joining with the opposite branch).
+</li>
+</ol>
+<p>
+The only traced boundaries shown in Figure&nbsp;3.22a
+are those that satisfy all of these conditions.
+</p>
+<p>
+Figure&nbsp;3.22b shows a specific example of an asymmetric
+conduction–radiation domain constructed in this manner.
+</p>
 </li>
 <li id="1-regimes"><blockquote class="examiner">
 P48. Explain how you differentiate between the hot/transition/ cold regimes.
@@ -122,7 +167,7 @@ what would you do to extend this study?
 </li>
 </ol>
 <h3>Revisions</h3>
-<ol>
+<ol class="top-level">
 <li>To be raised at the viva:
 <blockquote class="examiner">
 […] a couple of very minor typos […].

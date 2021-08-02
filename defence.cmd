@@ -12,6 +12,7 @@
   @page {
     border-top: var(--solid-line);
     margin: 2cm;
+    padding-top: 0.3em;
     size: A4;
     @top-left {
       content: "Conway Li";
@@ -31,6 +32,7 @@
   blockquote {
     border-left: var(--solid-line-thick);
     margin-left: 0.5em;
+    margin-bottom: 0;
     padding: 0.3em 0.5em;
   }
   body {
@@ -51,11 +53,12 @@
   h3 {
     font-size: 1.2em;
   }
-  ol {
-    padding-left: 1.3em;
-  }
-  ol > li {
+  ol.top-level > li {
     margin-bottom: 1.3em;
+  }
+  ol, ul {
+    margin-top: 0.3em;
+    padding-left: 1.7em;
   }
   p {
     margin-top: 0.5em;
@@ -77,7 +80,7 @@
 
 ### Questions ###
 
-++++
+++++++{.top-level}
 1.{#1-summary}
 
   """"{.examiner}
@@ -96,9 +99,9 @@
   """"
   ----
   By 'practically negligible' I mean that
-  the __dimensionless self-viewing ratio~R falls below~1%__
+  the __dimensionless self-viewing ratio~`R` falls below~`1%`__
   (which is an arbitrarily chosen cutoff).
-  At any point on the boundary, R~is the ratio between
+  At any point on the boundary, `R`~is the ratio between
   the amount of inbound self-viewing radiation
   (which boundary tracing does *not* account for)
   and the amount of outbound radiation.
@@ -109,6 +112,41 @@
   """"{.examiner}
   P41. This is a very complicated diagram. Please interpret it.
   """"
+  ----
+  Figure~3.22a shows the process of constructing
+  an asymmetric conduction--radiation domain
+  for a specific cosinusoidal solution.
+  We have the following:
+  ----
+  ====
+  * [Solid black curves]:
+      __traced boundaries__, which satisfy the radiation condition.
+      There are two branches of these (upper and lower).
+  * [Dotted black line]:
+      __constant-temperature__ (heat-supplying) boundary.
+  * [Grey regions]:
+      __non-viable domain__, in which traced boundaries do not exist.
+  * [Grey curves]:
+      __inflection frontiers__,
+      where each branch of traced boundaries inflects.
+  ====
+  ----
+  To successfully construct a convex domain,
+  we need portions of traced boundary that
+  ----
+  ++++
+  1. lie convex side of the relevant inflection frontiers,
+  2. reach the constant-temperature (heat-supplying) boundary, and
+  3. reach the line of symmetry~`y = 0` (for joining with the opposite branch).
+  ++++
+  ----
+  The only traced boundaries shown in Figure~3.22a
+  are those that satisfy all of these conditions.
+  ----
+  ----
+  Figure~3.22b shows a specific example of an asymmetric
+  conduction--radiation domain constructed in this manner.
+  ----
 
 4.{#1-regimes}
 
@@ -142,12 +180,12 @@
   If you had funding for another 6 months of research,
   what would you do to extend this study?
   """"
-++++
+++++++
 
 
 ### Revisions ###
 
-++++
+++++{.top-level}
 1. To be raised at the viva:
 
   """"{.examiner}
