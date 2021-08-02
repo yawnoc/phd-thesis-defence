@@ -6,7 +6,8 @@
 %css a~~~~~~~~
   :root {
     --solid-line: 1px solid black;
-    --solid-line-thick: 2px solid black;
+    --solid-line-thick: 3px solid black;
+    --dark-grey: #595959;
   }
   @page {
     border-top: var(--solid-line);
@@ -14,7 +15,7 @@
     size: A4;
     @top-left {
       content: "Conway Li";
-      margin-bottom: 0.5em;
+      margin-bottom: 0.3em;
       vertical-align: bottom;
     }
     @bottom-right {
@@ -30,7 +31,7 @@
   blockquote {
     border-left: var(--solid-line-thick);
     margin-left: 0.5em;
-    padding: 0.2em 0.5em;
+    padding: 0.3em 0.5em;
   }
   body {
     font-family: Tinos, serif;
@@ -42,6 +43,10 @@
   }
   h2 {
     font-size: 1.33em;
+    margin-top: 2em;
+  }
+  h1 + h2 {
+    margin-top: 0;
   }
   h3 {
     font-size: 1.2em;
@@ -49,7 +54,12 @@
   ol {
     padding-left: 1.3em;
   }
+  ol > li {
+    margin-bottom: 1.3em;
+  }
   .examiner {
+    color: var(--dark-grey);
+    border-color: var(--dark-grey);
     font-family: Arimo, sans-serif;
   }
 ~~~~~~~~
