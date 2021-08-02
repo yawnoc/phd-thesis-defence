@@ -133,7 +133,7 @@
 
   """"{.examiner}
   [...]
-  If I were critial I would ask that
+  If I were critical I would ask that
   the candidate extend both Section~1.1 and Chapter~9.
   [...]
   However I am not insistent that these modification are made;
