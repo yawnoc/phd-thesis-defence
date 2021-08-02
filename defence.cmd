@@ -171,6 +171,12 @@
   Here you claim you have introduced some novelty in the numerical work.
   Please explain this. What makes it novel?
   """"
+  ----
+  The novelty lies in the observation that we may use
+  a __different contact angle__ when boundary tracing
+  to the contact angle of the known wedge solution.
+  This observation was *not* made in my Honours thesis.
+  ----
 
 6.{#1-publication}
 
