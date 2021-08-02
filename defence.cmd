@@ -183,6 +183,17 @@
   """"{.examiner}
   Which of your results are worthy of publication?
   """"
+  ----
+  The most worthy results are those with practical application:
+  ----
+  ====
+  * Plane-source physical fin example
+  * Dip-coating with roughness/indentations
+  ====
+  ----
+  My supervisors and I are preparing manuscripts that cover
+  all chapters of the thesis.
+  ----
 
 7.{#1-proud}
 
