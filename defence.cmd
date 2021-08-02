@@ -200,6 +200,19 @@
   """"{.examiner}
   What results(s) is/are you most proud of? Why?
   """"
+  ====
+  * The __self-viewing radiation analysis__ and the __physical example__
+    for the plane-source fin.
+    These turned what was originally a rather meagre chapter
+    into the centrepiece of the radiation section
+    (the narrative was changed from "alas we have no convex boundaries"
+    to "look we can salvage practical results").
+  * The __etching of grooves__ in the dip-coating problem.
+    It was quite satisfying to see the numerical verification (Figure~7.23).
+  * The __new interpretation__ of the comparison observation (capillarity)
+    that ties in with the roughness theory.
+    This was very neat, in my opinion.
+  ====
 
 8.{#1-extend}
 
