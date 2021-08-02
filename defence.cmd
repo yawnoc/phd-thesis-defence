@@ -99,9 +99,9 @@
   """"
   ----
   By 'practically negligible' I mean that
-  the __dimensionless self-viewing ratio~`R` falls below~`1%`__
+  the __dimensionless self-viewing ratio~<var>R</var> falls below~1%__
   (which is an arbitrarily chosen cutoff).
-  At any point on the boundary, `R`~is the ratio between
+  At any point on the boundary, <var>R</var>~is the ratio between
   the amount of inbound self-viewing radiation
   (which boundary tracing does *not* account for)
   and the amount of outbound radiation.
@@ -137,7 +137,8 @@
   ++++
   1. lie convex side of the relevant inflection frontiers,
   2. reach the constant-temperature (heat-supplying) boundary, and
-  3. reach the line of symmetry~`y = 0` (for joining with the opposite branch).
+  3. reach the line of symmetry~<var>y</var> = 0
+     (for joining with the opposite branch).
   ++++
   ----
   The only traced boundaries shown in Figure~3.22a
@@ -158,9 +159,9 @@
   (e.g.~a terminal point appears or disappears)
   I call it a __transition__.
   The naming of regimes on either side of a transition
-  comes from the dimensionless group~`A`.
-  Since `A` is inversely proportional to the temperature scale cubed,
-  small~`A` is __hot__, while large~`A` is __cold__.
+  comes from the dimensionless group~<var>A</var>.
+  Since <var>A</var> is inversely proportional to the temperature scale cubed,
+  small~<var>A</var> is __hot__, while large~<var>A</var> is __cold__.
   ----
 
 5.{#1-novelty}
