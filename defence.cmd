@@ -57,6 +57,10 @@
   ol > li {
     margin-bottom: 1.3em;
   }
+  p {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+  }
   .examiner {
     color: var(--dark-grey);
     border-color: var(--dark-grey);
@@ -80,6 +84,8 @@
   Please summarise in 5~minutes
   the main aims, methods and results of your work
   """"
+  <## TODO ##>
+
 
 2.{#1-negligible}
 
@@ -88,6 +94,15 @@
   when the self-viewing radiation is 'practically negligible'.
   How do you quantify this?
   """"
+  ----
+  By 'practically negligible' I mean that
+  the __dimensionless self-viewing ratio~R falls below~1%__
+  (which is an arbitrarily chosen cutoff).
+  At any point on the boundary, R~is the ratio between
+  the amount of inbound self-viewing radiation
+  (which boundary tracing does *not* account for)
+  and the amount of outbound radiation.
+  ----
 
 3.{#1-diagram}
 
