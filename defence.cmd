@@ -402,4 +402,42 @@
   """"
 ++++++
 
+#### Chapter~4 ####
+
+++++++{.top-level}
+1.{#2-4-geometry}
+  """"{.examiner}
+  Page 48: The geometry of the viable domains is interesting.
+  Do you have any intuition for why there is an annular non-viable domain
+  in the hot region?
+  """"
+
+2.{#2-4-tangency}
+  """"{.examiner}
+  Pg 54: Can you explain "convex at the point of tangency" condition
+  when locally the curve is quadratic (and hence convex)?
+  """"
+
+  """"{.examiner}
+  It looks like you want the slope to be shallower than the circle.
+  Why is that? Is the constraint on rsharp too restrictive?
+  """"
+
+3.{#2-4-error}
+  """"{.examiner}
+  Pg 58: It looks like the numerical error is greatest at the inner Td circle
+  where the log condition is applied.
+  Presumably, this is more accurate if you make the inner radius smaller.
+  Is it more realistic to have a larger circle
+  or is the larger enclosed domain more realistic?
+  """"
+
+4.{#2-4-shape}
+  """"{.examiner}
+  Pg 61: As you acknowledge the power loss is the same
+  regardless of the outer shape.
+  Is there any reason one shape is better than another?
+  """"
+++++++
+
 ### Revisions ###
