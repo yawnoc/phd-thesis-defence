@@ -547,5 +547,43 @@
   """"
 ++++++
 
+#### Chapter~8 ####
+
+++++++{.top-level}
+1.{#2-8-coordinates}
+  """"{.examiner}
+  Pg~133: Can you explain what you mean by only n and grad
+  (not script n and script D) have physical meaning.
+  n and grad are agnostic to coordinate system and all you have done
+  is shifted to polar coordinates.
+  """"
+
+2.{#2-8-newton}
+  """"{.examiner}
+  Pg~135: Why do you think the nonlinear BVP is experiencing issues
+  using the built-in solver.
+  Why does your own implementation of Newton's method do better?
+  Are you essentially doing an IMEX type scheme?
+  """"
+
+3.{#2-8-bounded}
+  """"{.examiner}
+  Pg~135: You comment that a bounded solution is fine
+  because H-\>0 and the singularity at r=0 is removed,
+  but T is of 0/0 form so how do you know?
+  """"
+  """"{.examiner}
+  Could you do a further expansion in H when r is small to get the correction?
+  """"
+
+4.{#2-8-context}
+  """"{.examiner}
+  General: Can you give the context/importance of section 8.3?
+  Why do we want to consider non-rounded corners?
+  """"
+  """"{.examiner}
+  What is the value of the result of bounded height?
+  """"
+++++++
 
 ### Revisions ###
