@@ -244,12 +244,12 @@ they are certainly not a deal-breaker by any stretch.
 <ol class="top-level">
 <li id="2-1-parallel"><blockquote class="examiner">
 Pg&nbsp;2: grad(T)=|F| then traced boundary is parallel to the local-T contour.
-Isn’t it parallel to all T-contours?
+Isn't it parallel to all T-contours?
 </blockquote>
 </li>
 <li id="2-1-offer"><blockquote class="examiner">
 General: What does the boundary tracing method offer
-that isn’t captured by say finite element methods
+that isn't captured by say finite element methods
 where non-uniform boundaries can be triangulated?
 </blockquote>
 </li>
@@ -282,6 +282,81 @@ How can it be written as a linear combination of these vectors?
 Pg 15: Double check calculus for (2.24) and (2.25).
 It should have du/dv=du/ds/dv/ds
 but it is not immediately clear this is true.
+</blockquote>
+</li>
+</ol>
+<h4>Chapter&nbsp;3</h4>
+<ol class="top-level">
+<li id="2-3-differentiable"><blockquote class="examiner">
+Pg 23: Other than self-viewing radiation, are there any other issues
+with having a non-differentiable domain?
+</blockquote>
+</li>
+<li id="2-3-brachistochrome"><blockquote class="examiner">
+General: The boundary traces seem to represent symmetries in the physics.
+A certain amount of stuff has to get out and that can be done in many ways.
+In the spirit of a brachistochrome problem, did you consider shapes
+which get it out efficiently (i.e. maximize/minimize arclength)?
+</blockquote>
+</li>
+<li id="2-3-superposition"><blockquote class="examiner">
+Pg 23: Self-viewing radiation. If I understand this right,
+if you have a single curve (no patching) then it satisfies the problem
+(mathematically solving the radiation condition).
+When you patch curves together you have a superposition
+that breaks the math problem?
+</blockquote>
+</li>
+<li id="2-3-images"><blockquote class="examiner">
+Pg 23: Related to previous question.
+Is there a method of images type approach you can use
+to extend this technique further?
+</blockquote>
+</li>
+<li id="2-3-z"><blockquote class="examiner">
+Pg 25: Why do you need to worry about the z-coordinate?
+A perfectly symmetric shape should never have incident radiation
+from different values of z as the normal vectors are parallel.
+</blockquote>
+</li>
+<li id="2-3-point"><blockquote class="examiner">
+Pg 35: When A=1 the radiation boundary collapses to a point.
+However, Laplace's equation cannot admit point constraints,
+what is happening here?
+</blockquote>
+</li>
+<li id="2-3-terminal"><blockquote class="examiner">
+Pg 38: Can you clarify why the x-axis terminal points are interesting?
+</blockquote>
+</li>
+<li id="2-3-saddle"><blockquote class="examiner">
+Pg 39: You have this saddle-node structure that emerges.
+Is there something deeper about the problem this is exposing?
+What is special about B=1?
+</blockquote>
+</li>
+<li id="2-3-asymptotic"><blockquote class="examiner">
+Pg 40:
+There seems to be an interesting behaviour change from Case 3 to 4 (B=1).
+Did you consider asymptotic expansions of B near 1
+to get a better handle of this transition?
+</blockquote>
+</li>
+<li id="2-3-errors"><blockquote class="examiner">
+Pg 43: Do you have a sense of why the errors are strongest at the boundaries?
+Afterall, this is precisely a method for designing boundaries
+that make the solutions work.
+Is the issue the incompatibility of boundary conditions at the corners?
+</blockquote>
+<blockquote class="examiner">
+Did you consider numerical refinement of the mesh to see
+if the error scales with the correct numerical order of the method?
+</blockquote>
+</li>
+<li id="2-3-estimates"><blockquote class="examiner">
+Pg 43: Did you consider an example with non-convex boundaries
+to demonstrate the impact of the self-radiation
+and how it compares to some of your bounds and estimates?
 </blockquote>
 </li>
 </ol>
