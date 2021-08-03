@@ -483,7 +483,7 @@
 
 2.{#2-6-gamma}
   """"{.examiner}
-  Pg 104: You need to have gamma\_dot
+  Pg~104: You need to have gamma\_dot
   and a BVP for gamma such that gamma\_dot\>gamma.
   Does it not make sense to choose the smallest gamma possible then
   to increase the probability that a given gamma\_dot satisfies the inequality.
@@ -491,17 +491,61 @@
 
 3.{#2-6-advantage}
   """"{.examiner}
-  Pg. 110: You claim that the advantage of boundary tracing for wedge flow
+  Pg.~110: You claim that the advantage of boundary tracing for wedge flow
   is a single BVP computation and N boundary solves vs N BVP solves. \+
   1) Can you comment on the difference in computation time of the two methods.
   """"
   """"{.examiner}
-  2) In Figure 6.31 you only do a subset of boundary tracing
+  2) In Figure~6.31 you only do a subset of boundary tracing
   whereas you have a nice full curve using the numerical method.
   This makes the numerical method look better.
   Furthermore, you have errors between the boundary tracing and numerics,
   is this error worth the computational speedup?
   """"
 ++++++
+
+#### Chapter~7 ####
+
+++++++{.top-level}
+1.{#2-7-discrepancy}
+  """"{.examiner}
+  Pg~112: You notice a discrepancy of \>10% in the re-entrant wedge.
+  Can you comment on why this might be?
+  """"
+
+2.{#2-7-hybrid}
+  """"{.examiner}
+  Pg~113: You notice the corner effect is only problematic for r\<\<1.
+  Can you do some hybrid asymptotic numerical method
+  to get a more accurate numerical solution with fewer triangles?
+  """"
+
+3.{#2-7-deflection}
+  """"{.examiner}
+  Pg~118: Is there any connection between the lack of domain formation
+  for the re-entrant wedge and the trouble near the corner.
+  It is an extreme case of deflection.
+  """"
+
+4.{#2-7-smooth}
+  """"{.examiner}
+  Pg~122: Figure~7.17 the height appears not to be smooth.
+  Can you comment on this?
+  """"
+
+5.{#2-7-complexity}
+  """"{.examiner}
+  Pg~128: What is the computational complexity of the etching
+  vs just solving the full problem numerically.
+  """"
+
+6.{#2-7-etching}
+  """"{.examiner}
+  General: Can you explain to me the point of the etching in Chapter~7?
+  It is not clear why it is needed for the manufacturing process.
+  Why not just etch the true contour and dip? I think I'm missing something.
+  """"
+++++++
+
 
 ### Revisions ###
