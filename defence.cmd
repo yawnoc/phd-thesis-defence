@@ -327,6 +327,16 @@ Z{%
   that isn't captured by say finite element methods
   where non-uniform boundaries can be triangulated?
   """"
+  ----
+  In the context of Part~I, boundary tracing offers __exactness__.
+  The hypergeometric (2F1) boundaries for the plane source are *exact*
+  (notwithstanding self-viewing radiation).
+  And although we need numerical integration for the other cases,
+  numerically solving ODEs is a __straightforward__ (and __cheap__) process.
+  For a given exact solution to the PDE,
+  traced boundaries can be computed numerically to *any* desired precision.
+  ----
+  <## TODO: In the context of Part~II, etc. ##>
 
 3.{#2-1-fluxes}
   """"{.examiner}
