@@ -54,6 +54,9 @@
   h3 {
     font-size: 1.2em;
   }
+  h4 {
+    font-size: 1em;
+  }
   ol.top-level > li {
     margin-bottom: 1.3em;
   }
@@ -256,5 +259,41 @@
 ## Examiner~2 ##
 
 ### Questions ###
+
+#### Chapter~1 ####
+
+++++++{.top-level}
+1.{#2-1-parallel}
+
+  """"{.examiner}
+  Pg~2: grad(T)=|F| then traced boundary is parallel to the local-T contour.
+  Isn’t it parallel to all T-contours?
+  """"
+
+2.{#2-1-offer}
+  """"{.examiner}
+  General: What does the boundary tracing method offer
+  that isn’t captured by say finite element methods
+  where non-uniform boundaries can be triangulated?
+  """"
+
+3.{#2-1-fluxes}
+  """"{.examiner}
+  General: Did you consider other types of fluxes
+  to allow for negative temperature in the "non-viable regions"
+  """"
+
+4.{#2-1-fluid}
+  """"{.examiner}
+  General: Did you consider looking at fluid-flow problems?
+  """"
+  """"{.examiner}
+  For example, could you identify interesting Rankine bodies
+  using this technique?
+  """"
+  """"{.examiner}
+  Stokes flow is also a Laplace equation.
+  """"
+++++++
 
 ### Revisions ###
