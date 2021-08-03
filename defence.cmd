@@ -73,8 +73,35 @@
     border-color: var(--line-grey);
     font-family: Arimo, sans-serif;
   }
+  .thesis {
+    margin: 0.4em 2em;
+  }
+  .abs-operand {
+    margin: 0 0.075em;
+  }
+  .norm-operand {
+    margin: 0 0.2em;
+  }
 ~~~~~~~~
 %%
+
+e{: \del : \/__{.vector} ∇__ :}
+
+Z{%
+  \|\|
+    (?P<operand> .+? )
+  \|\|
+%
+  ~~||~~<span class="norm-operand">\g<operand></span>~~||~~
+%}
+
+Z{%
+  \|
+    (?P<operand> .+? )
+  \|
+%
+  ~~|~~<span class="abs-operand">\g<operand></span>~~|~~
+%}
 
 Z{%
   \{
@@ -274,9 +301,25 @@ Z{%
 1.{#2-1-parallel}
 
   """"{.examiner}
-  Pg~2: grad(T)=|F| then traced boundary is parallel to the local-T contour.
+  Pg~2: grad(T)=\|F\| then traced boundary is parallel to the local-T contour.
   Isn't it parallel to all T-contours?
   """"
+  ----
+  Here, ||\del{T}|| = |{F}| is **not an identity**.
+  It holds only at the point in question. \+
+  From Page~2:
+  ----
+  """"""{.thesis}
+  [...] and there are three cases <mark>at any given point</mark>:
+  ++++
+  1. If ||\del{T}|| \> |{F}|, then [...]
+  2. If ||\del{T}|| = |{F}|, then [...]
+  3. If ||\del{T}|| \< |{F}|, then [...]
+  ++++
+  """"""
+  ----
+  The traced boundary is only parallel to the *local* {T}-contour.
+  ----
 
 2.{#2-1-offer}
   """"{.examiner}
