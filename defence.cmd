@@ -1,6 +1,6 @@
 %%
 %title
-  Ph.D. Defence
+  defence
 %resources
   <script src="paged.polyfill.js"></script>
 %css a~~~~~~~~
@@ -73,7 +73,7 @@
 %%
 
 
-# %title #
+# Ph.D. Defence #
 
 
 ## Examiner~1 ##
