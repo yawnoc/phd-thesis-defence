@@ -586,4 +586,30 @@
   """"
 ++++++
 
+#### Chapter~9 ####
+
+++++++{.top-level}
+1.{#2-9-alternative}
+  """"{.examiner}
+  General: The advantage you are selling for boundary tracing is
+  it is an alternative to solving PDEs numerically.
+  However, you still have to solve ODEs numerically
+  and also the method is very restrictive as your analysis showed.
+  Do you think this is a method that will be used practically?
+  """"
+
+2.{#2-9-flow}
+  """"{.examiner}
+  General: Have you considered Poiseuille flow in pipes of 2D cross-section?
+  This is Laplace's equation and there is great interest in polygonal pipes.
+  """"
+
+3.{#2-9-contributions}
+  """"{.examiner}
+  General: Can you summarize your new contributions
+  to the field of boundary tracing?
+  There is a lot of reference to [39], [2].
+  """"
+++++++
+
 ### Revisions ###
