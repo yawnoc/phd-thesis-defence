@@ -440,4 +440,25 @@
   """"
 ++++++
 
+#### Chapter~5 ####
+
+++++++{.top-level}
+1.{#2-5-transition}
+  """"{.examiner}
+  Pg~69: The difference between the two transition A values is 0.7
+  which is not very large. Is there any significance to this?
+  """"
+
+2.{#2-5-doublet}
+  """"{.examiner}
+  Pg~74: This “tear-drop” looks a lot like an airfoil with a puncture.
+  General: Why not consider a doublet?
+  """"
+  """"{.examiner}
+  This is a limiting bipolar scenario and may reveal
+  some interesting connection to the polar coordinates example.
+  I guess it is in the cold regime, but what about uneven source/sink?
+  """"
+++++++
+
 ### Revisions ###
