@@ -301,14 +301,14 @@
 ++++++{.top-level}
 1.{#2-2-orthogonal}
   """"{.examiner}
-  Pg 11: (2.1) Can you walk me through this?
+  Pg~11: (2.1) Can you walk me through this?
   Au and av are orthogonal and n should be orthogonal to both.
   How can it be written as a linear combination of these vectors?
   """"
 
 2.{#2-2-calculus}
   """"{.examiner}
-  Pg 15: Double check calculus for (2.24) and (2.25).
+  Pg~15: Double check calculus for (2.24) and (2.25).
   It should have du/dv=du/ds/dv/ds
   but it is not immediately clear this is true.
   """"
@@ -319,7 +319,7 @@
 ++++++{.top-level}
 1.{#2-3-differentiable}
   """"{.examiner}
-  Pg 23: Other than self-viewing radiation, are there any other issues
+  Pg~23: Other than self-viewing radiation, are there any other issues
   with having a non-differentiable domain?
   """"
 
@@ -333,7 +333,7 @@
 
 3.{#2-3-superposition}
   """"{.examiner}
-  Pg 23: Self-viewing radiation. If I understand this right,
+  Pg~23: Self-viewing radiation. If I understand this right,
   if you have a single curve (no patching) then it satisfies the problem
   (mathematically solving the radiation condition).
   When you patch curves together you have a superposition
@@ -342,40 +342,40 @@
 
 4.{#2-3-images}
   """"{.examiner}
-  Pg 23: Related to previous question.
+  Pg~23: Related to previous question.
   Is there a method of images type approach you can use
   to extend this technique further?
   """"
 
 5.{#2-3-z}
   """"{.examiner}
-  Pg 25: Why do you need to worry about the z-coordinate?
+  Pg~25: Why do you need to worry about the z-coordinate?
   A perfectly symmetric shape should never have incident radiation
   from different values of z as the normal vectors are parallel.
   """"
 
 6.{#2-3-point}
   """"{.examiner}
-  Pg 35: When A=1 the radiation boundary collapses to a point.
+  Pg~35: When A=1 the radiation boundary collapses to a point.
   However, Laplace's equation cannot admit point constraints,
   what is happening here?
   """"
 
 7.{#2-3-terminal}
   """"{.examiner}
-  Pg 38: Can you clarify why the x-axis terminal points are interesting?
+  Pg~38: Can you clarify why the x-axis terminal points are interesting?
   """"
 
 8.{#2-3-saddle}
   """"{.examiner}
-  Pg 39: You have this saddle-node structure that emerges.
+  Pg~39: You have this saddle-node structure that emerges.
   Is there something deeper about the problem this is exposing?
   What is special about B=1?
   """"
 
 9.{#2-3-asymptotic}
   """"{.examiner}
-  Pg 40:
+  Pg~40:
   There seems to be an interesting behaviour change from Case 3 to 4 (B=1).
   Did you consider asymptotic expansions of B near 1
   to get a better handle of this transition?
@@ -383,7 +383,7 @@
 
 10.{#2-3-errors}
   """"{.examiner}
-  Pg 43: Do you have a sense of why the errors are strongest at the boundaries?
+  Pg~43: Do you have a sense of why the errors are strongest at the boundaries?
   Afterall, this is precisely a method for designing boundaries
   that make the solutions work.
   Is the issue the incompatibility of boundary conditions at the corners?
@@ -396,7 +396,7 @@
 
 12.{#2-3-estimates}
   """"{.examiner}
-  Pg 43: Did you consider an example with non-convex boundaries
+  Pg~43: Did you consider an example with non-convex boundaries
   to demonstrate the impact of the self-radiation
   and how it compares to some of your bounds and estimates?
   """"
@@ -407,14 +407,14 @@
 ++++++{.top-level}
 1.{#2-4-geometry}
   """"{.examiner}
-  Page 48: The geometry of the viable domains is interesting.
+  Page~48: The geometry of the viable domains is interesting.
   Do you have any intuition for why there is an annular non-viable domain
   in the hot region?
   """"
 
 2.{#2-4-tangency}
   """"{.examiner}
-  Pg 54: Can you explain "convex at the point of tangency" condition
+  Pg~54: Can you explain "convex at the point of tangency" condition
   when locally the curve is quadratic (and hence convex)?
   """"
 
@@ -425,7 +425,7 @@
 
 3.{#2-4-error}
   """"{.examiner}
-  Pg 58: It looks like the numerical error is greatest at the inner Td circle
+  Pg~58: It looks like the numerical error is greatest at the inner Td circle
   where the log condition is applied.
   Presumably, this is more accurate if you make the inner radius smaller.
   Is it more realistic to have a larger circle
@@ -434,7 +434,7 @@
 
 4.{#2-4-shape}
   """"{.examiner}
-  Pg 61: As you acknowledge the power loss is the same
+  Pg~61: As you acknowledge the power loss is the same
   regardless of the outer shape.
   Is there any reason one shape is better than another?
   """"
