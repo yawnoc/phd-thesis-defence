@@ -172,7 +172,7 @@ Z{%
   I call it a __transition__.
   The naming of regimes on either side of a transition
   comes from the dimensionless group~{A}.
-  Since {A} is inversely proportional to the temperature scale cubed,
+  Since {A}~is inversely proportional to the temperature scale cubed,
   small~{A} is __hot__, while large~{A} is __cold__.
   ----
 
