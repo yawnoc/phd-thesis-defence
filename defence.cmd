@@ -7,7 +7,8 @@
   :root {
     --solid-line: 1px solid black;
     --solid-line-thick: 3px solid black;
-    --dark-grey: #595959;
+    --line-grey: #949494;
+    --text-grey: #595959;
   }
   @page {
     border-top: var(--solid-line);
@@ -65,8 +66,8 @@
     margin-bottom: 0;
   }
   .examiner {
-    color: var(--dark-grey);
-    border-color: var(--dark-grey);
+    color: var(--text-grey);
+    border-color: var(--line-grey);
     font-family: Arimo, sans-serif;
   }
 ~~~~~~~~
