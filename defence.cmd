@@ -612,4 +612,16 @@
   """"
 ++++++
 
+#### Appendix~C ####
+
+++++++{.top-level}
+1.{#2-c-conformal}
+  """"{.examiner}
+  General: The application to conformal mapping seems interesting
+  and I'm surprised it wasn't explored further in the thesis
+  seeing the immense application complex variables has for Laplace's equation.
+  Can you comment more on this.
+  """"
+++++++
+
 ### Revisions ###
