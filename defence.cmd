@@ -461,4 +461,47 @@
   """"
 ++++++
 
+#### Chapter~6 ####
+
+++++++{.top-level}
+1.{#2-6-boundary}
+  """"{.examiner}
+  Pg~101/102: You notice that you only need to solve the PDE
+  (not the boundary conditions) for boundary tracing
+  and so you can have a separate gamma for the BVP than a gamma for the BC.
+  Why not pick different BC all together for the BVP solve?
+  """"
+
+  """"{.examiner}
+  Are there boundary conditions
+  where special analytical solutions can be found?
+  """"
+
+  """"{.examiner}
+  Are there BCS that make the computation easier to solve?
+  """"
+
+2.{#2-6-gamma}
+  """"{.examiner}
+  Pg 104: You need to have gamma\_dot
+  and a BVP for gamma such that gamma\_dot\>gamma.
+  Does it not make sense to choose the smallest gamma possible then
+  to increase the probability that a given gamma\_dot satisfies the inequality.
+  """"
+
+3.{#2-6-advantage}
+  """"{.examiner}
+  Pg. 110: You claim that the advantage of boundary tracing for wedge flow
+  is a single BVP computation and N boundary solves vs N BVP solves. \+
+  1) Can you comment on the difference in computation time of the two methods.
+  """"
+  """"{.examiner}
+  2) In Figure 6.31 you only do a subset of boundary tracing
+  whereas you have a nice full curve using the numerical method.
+  This makes the numerical method look better.
+  Furthermore, you have errors between the boundary tracing and numerics,
+  is this error worth the computational speedup?
+  """"
+++++++
+
 ### Revisions ###
