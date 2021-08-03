@@ -224,7 +224,7 @@
   ----
   Definitely I would further develop the ideas in Appendix~C
   (boundary tracing in the __complex plane__ using __conformal mapping__).
-  This looks promising for future research.
+  This looks a promising area for future research.
   ----
 ++++++
 
