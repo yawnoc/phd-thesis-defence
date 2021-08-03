@@ -296,4 +296,22 @@
   """"
 ++++++
 
+#### Chapter~2 ####
+
+++++++{.top-level}
+1.{#2-2-orthogonal}
+  """"{.examiner}
+  Pg 11: (2.1) Can you walk me through this?
+  Au and av are orthogonal and n should be orthogonal to both.
+  How can it be written as a linear combination of these vectors?
+  """"
+
+2.{#2-2-calculus}
+  """"{.examiner}
+  Pg 15: Double check calculus for (2.24) and (2.25).
+  It should have du/dv=du/ds/dv/ds
+  but it is not immediately clear this is true.
+  """"
+++++++
+
 ### Revisions ###
