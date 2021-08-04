@@ -712,11 +712,30 @@ Z{%
   Pg~54: Can you explain "convex at the point of tangency" condition
   when locally the curve is quadratic (and hence convex)?
   """"
+  ----
+  "Convex at the point of tangency" means that the traced boundary
+  (which touches the circle {r} = {r}(sharp))
+  must either coincide with the tangent line
+  or deflect towards the inner (smaller~{r}) side of it.
+  Translating this to Figure~4.7,
+  the traced boundary must stay on or to the left of the vertical line.
+  ----
+  ----
+  The first-order behaviour of the traced boundary
+  as given in~(4.35) (Page~53) is quadratic
+  because it is written in terms of {ξ} = {r} − {r}(sharp).
+  Note that {ξ} = 0 is the circle {r} = {r}(sharp), not the tangent line.
+  The tangent line is given by~(4.37) (which also has {ξ}~quadratic).
+  ----
 
   """"{.examiner}
   It looks like you want the slope to be shallower than the circle.
   Why is that? Is the constraint on rsharp too restrictive?
   """"
+  ----
+  I want the traced boundary~(4.35)
+  to be shallower than the tangent line~(4.37).
+  ----
 
 3.{#2-4-error}
   """"{.examiner}
