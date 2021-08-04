@@ -9,8 +9,9 @@
     --solid-line-thick: 3px solid black;
     --line-grey: #949494;
     --text-grey: #595959;
-    --abs-gap: 0.075em;
-    --norm-gap: 0.2em;
+    --abs-gap: 0.05em;
+    --norm-gap: 0.1em;
+    --delimeter-size: 1.1em;
   }
   @page {
     border-top: var(--solid-line);
@@ -71,9 +72,11 @@
     margin-bottom: 0;
   }
   .abs-open {
+    font-size: var(--delimeter-size);
     margin-right: var(--abs-gap);
   }
   .abs-close {
+    font-size: var(--delimeter-size);
     margin-left: var(--abs-gap);
   }
   .examiner {
@@ -82,9 +85,11 @@
     font-family: Arimo, sans-serif;
   }
   .norm-open {
+    font-size: var(--delimeter-size);
     margin-right: var(--norm-gap);
   }
   .norm-close {
+    font-size: var(--delimeter-size);
     margin-left: var(--norm-gap);
   }
   .thesis {
