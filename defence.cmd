@@ -982,6 +982,20 @@ Z{%
   It is not clear why it is needed for the manufacturing process.
   Why not just etch the true contour and dip? I think I'm missing something.
   """"
+  ----
+  If we simply round the dipped object in the shape of a contour
+  (grey curves in Figure~7.23, Page~128),
+  we will *not* obtain a level height-rise profile.
+  The theory tells us that we must either
+  apply roughness or modify the contact angle.
+  ----
+  ----
+  Etching small grooves is a way to achieve roughness.
+  However, the irregular indentations of boundary tracing
+  are not very practical to produce,
+  so we instead etch regularly-shaped grooves at a variable spacing,
+  chosen to achieve the requisite amount of roughness.
+  ----
 ++++++
 
 ### Chapter~8 ###
