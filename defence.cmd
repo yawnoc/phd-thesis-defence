@@ -1104,6 +1104,9 @@ Z{%
   General: Have you considered Poiseuille flow in pipes of 2D cross-section?
   This is Laplace's equation and there is great interest in polygonal pipes.
   """"
+  ----
+  Does this problem have a flux boundary condition?
+  ----
 
 3.{#2-9-contributions}
   """"{.examiner}
