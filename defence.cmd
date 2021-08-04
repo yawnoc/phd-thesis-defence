@@ -1114,6 +1114,27 @@ Z{%
   to the field of boundary tracing?
   There is a lot of reference to [39], [2].
   """"
+  ====
+  * [Chapter~2]:
+      derived boundary tracing ODE(s) for curvilinear coordinates
+  * [Chapters~3--5]:
+      applied boundary tracing to the conduction--radiation problem
+      (plane source, cosinusoidal, line source, bipolar)
+  * [Chapter~6]:
+      multiple corner roundings from a single capillary wedge solution
+  * [Chapter~7]:
+      recognised the agreement between Michael Anderson's roughness
+      and the early work by Wenzel;
+      applied roughness theory to the dip-coating problem
+      (with a practical solution involving etching)
+  * [Chapter~8]:
+      performed 1/{r} singularity extraction and applied boundary tracing;
+      built on a comparison observation by obtaining a new interpretation
+      that ties together with roughness theory
+  * [Appendix~C]:
+      wrote down a nice ODE in the complex plane
+      when the field equation is Laplace's equation
+  ====
 ++++++
 
 ### Appendix~C ###
