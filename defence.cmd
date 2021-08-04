@@ -363,6 +363,13 @@ Z{%
   General: Did you consider other types of fluxes
   to allow for negative temperature in the "non-viable regions"
   """"
+  ----
+  No, but an example would be a conduction--convection problem
+  where the object contains two internal sources:
+  one held above the environment temperature and the other held below it.
+  After scaling (which maps the environment temperature to zero),
+  this would be a problem with negative temperature.
+  ----
 
 4.{#2-1-fluid}
   """"{.examiner}
