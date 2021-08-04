@@ -167,6 +167,15 @@ Z{%
   <sup>\g<exponent></sup>
 %}
 
+s{: (flat) : ♭ :}
+s{: (nat) : ♮ :}
+s{: (sharp) : ♯ :}
+Z{%
+  (?P<accidental> [♭♮♯] )
+%
+  <sub>\g<accidental></sub>
+%}
+
 
 # Ph.D. Defence #
 
@@ -635,8 +644,19 @@ Z{%
   """"{.examiner}
   Pg~39: You have this saddle-node structure that emerges.
   Is there something deeper about the problem this is exposing?
+  """"
+  ----
+  The saddle--node structure of Figure~3.20
+  merely reflects the birth of a pair of real roots ({x}(flat) and~{x}(sharp))
+  for the polynomial equation~(3.64) (Page~38),
+  as {B}~increases past~{B}(nat).
+  ----
+  """"{.examiner}
   What is special about B=1?
   """"
+  ----
+  See [next](#2-3-asymptotic).
+  ----
 
 9.{#2-3-asymptotic}
   """"{.examiner}
