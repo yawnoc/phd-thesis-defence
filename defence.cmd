@@ -82,6 +82,9 @@
     font-size: var(--delimeter-size);
     margin-left: var(--abs-gap);
   }
+  .accidental {
+    font-family: 'DejaVu Sans';
+  }
   .del {
     font-family: 'DejaVu Sans';
     font-size: 0.985em;
@@ -173,7 +176,7 @@ s{: (sharp) : ♯ :}
 Z{%
   (?P<accidental> [♭♮♯] )
 %
-  <sub>\g<accidental></sub>
+  <sub class="accidental">\g<accidental></sub>
 %}
 
 
