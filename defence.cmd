@@ -102,7 +102,7 @@
 ~~~~~~~~
 %%
 
-e{: \del : \/__{.del .vector} ∇__ :}
+e{: [del] : \/__{.del .vector} ∇__ :}
 
 c{%
   \|\|
@@ -124,7 +124,23 @@ c{%
   <span class="abs-close">~~|~~</span>
 %}
 
-Z{%
+s{%
+  \[
+    (?P<symbol> [a-zA-Z] )
+  \]
+%
+  __{.vector} \g<symbol>__
+%}
+
+s{%
+  \.\{
+    (?P<variable> [a-zA-Z] )
+  \}
+%
+  <sub>{\g<variable>}</sub>
+%}
+
+s{%
   \{
     (?P<variable> [a-zA-Z] )
   \}
@@ -326,16 +342,16 @@ Z{%
   Isn't it parallel to all T-contours?
   """"
   ----
-  Here, ||\del{T}|| = |{F}| is **not an identity**.
+  Here, ||[del]{T}|| = |{F}| is **not an identity**.
   It holds only at the point in question. \+
   From Page~2:
   ----
   """"""{.thesis}
   [...] and there are three cases <mark>at any given point</mark>:
   ++++
-  1. If ||\del{T}|| \> |{F}|, then [...]
-  2. If ||\del{T}|| = |{F}|, then [...]
-  3. If ||\del{T}|| \< |{F}|, then [...]
+  1. If ||[del]{T}|| \> |{F}|, then [...]
+  2. If ||[del]{T}|| = |{F}|, then [...]
+  3. If ||[del]{T}|| \< |{F}|, then [...]
   ++++
   """"""
   ----
@@ -396,6 +412,17 @@ Z{%
   Au and av are orthogonal and n should be orthogonal to both.
   How can it be written as a linear combination of these vectors?
   """"
+  ----
+  The normal vector~[n] in~(2.1)
+  is the same normal vector as that in the flux boundary condition~(1.1).
+  It is the normal to a curve *in* the plane;
+  it is NOT the normal *to* the plane.
+  ----
+  ----
+  Specifically, [n]~is perpendicular to the differential displacement~\
+  d[r] = {h}.{u}\,d{u}\,[a].{u} + {h}.{v}\,d{v}\,[a].{v},
+  which is the diagonal of the infinitesimal rectangle of Figure~2.1.
+  ----
 
 2.{#2-2-calculus}
   """"{.examiner}
