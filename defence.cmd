@@ -928,6 +928,11 @@ Z{%
   Can you do some hybrid asymptotic numerical method
   to get a more accurate numerical solution with fewer triangles?
   """"
+  ----
+  Asymptotics in a capillary wedge will only determine the corner slope.
+  The corner height (constant term) is determined by global considerations.
+  Specifically, we require a vanishing height rise at infinity.
+  ----
 
 3.{#2-7-deflection}
   """"{.examiner}
