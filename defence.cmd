@@ -756,6 +756,11 @@ Z{%
   regardless of the outer shape.
   Is there any reason one shape is better than another?
   """"
+  ----
+  In some applications we may want a specific directional distribution
+  of thermal radiation (Pages~27--28).
+  Or we might want to model some hexagonal nuts on a bolt, for instance.
+  ----
 ++++++
 
 ### Chapter~5 ###
