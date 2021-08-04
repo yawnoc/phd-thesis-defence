@@ -697,6 +697,15 @@ Z{%
   Do you have any intuition for why there is an annular non-viable domain
   in the hot region?
   """"
+  ----
+  This comes down to the shape of the known solution.
+  Physically, the non-viable domain is the region in which
+  the solution is not steep enough to satisfy the boundary condition.
+  In the hot regime ({A} \< {A}(nat)),
+  there is an intermediate interval in radius
+  where the solution (logarithmic in radius) is less steep
+  than the boundary flux (4th power of logarithmic in radius).
+  ----
 
 2.{#2-4-tangency}
   """"{.examiner}
