@@ -1031,6 +1031,9 @@ Z{%
   Why does your own implementation of Newton's method do better?
   Are you essentially doing an IMEX type scheme?
   """"
+  ----
+  My implementation is not of Newton's method, but of fixed-point iteration.
+  ----
 
 3.{#2-8-bounded}
   """"{.examiner}
