@@ -1041,9 +1041,17 @@ Z{%
   because H-\>0 and the singularity at r=0 is removed,
   but T is of 0/0 form so how do you know?
   """"
+  ----
+  Yes you are right; strictly speaking, vanishing~{H} at {r} = 0
+  is necessary but not sufficient to eliminate the singularity.
+  ----
   """"{.examiner}
   Could you do a further expansion in H when r is small to get the correction?
   """"
+  ----
+  The next term in the 1/{r} asymptotic expansion is known to be order~{r}^3.
+  See Miersemann~(1993) b<https://doi.org/10.2140/pjm.1993.157.95>.
+  ----
 
 4.{#2-8-context}
   """"{.examiner}
