@@ -1008,6 +1008,21 @@ Z{%
   n and grad are agnostic to coordinate system and all you have done
   is shifted to polar coordinates.
   """"
+  ----
+  The components of the gradient operator ([del]) in polar coordinates
+  are~∂/∂{r} and~(1/{r})(∂/∂{ϕ}).
+  Note in particular the scale factor of~1/{r} in the azimuthal component,
+  which ensures it has the correct dimensions (reciprocal length)
+  for a physical interpretation.
+  The azimuthal component of double-struck~'D' is~∂/∂{ϕ}.
+  The 1/{r}~factor has been removed (and all physical meaning with it).
+  ----
+  ----
+  Similarly, the physical normal vector~[n] (B.13) (Page~157)
+  has dimensionless components~{n}.{r} and~{n}.{ϕ},
+  whereas double-struck~'n' (B.14) (Page~158)
+  has radial component {n}.{r}/{r}, which is reciprocal length.
+  ----
 
 2.{#2-8-newton}
   """"{.examiner}
