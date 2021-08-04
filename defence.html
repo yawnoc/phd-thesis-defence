@@ -103,8 +103,11 @@ margin-right: var(--norm-gap);
 font-size: var(--delimeter-size);
 margin-left: var(--norm-gap);
 }
+.tight-bottom {
+margin-bottom: -0.2em;
+}
 .tight-top {
-margin-top: -0.3em;
+margin-top: -0.2em;
 }
 .thesis {
 margin: 0.4em 2em;
@@ -370,7 +373,7 @@ but it is not immediately clear this is true.
 The calculus is sound.
 We have
 </p>
-<table class="display-equation">
+<table class="display-equation tight-bottom">
 <tr>
 <td>(<var>P</var><var>Q</var> ± <var>F</var>√<var>Φ</var>) (−<var>Q</var><var>F</var> ± <var>P</var>√<var>Φ</var>)</td>
 <td>=</td>
@@ -410,7 +413,7 @@ Cross-dividing gives
 <p>
 Therefore
 </p>
-<table class="display-equation">
+<table class="display-equation tight-top tight-bottom">
 <tr>
 <td><var>h</var><sub><var>u</var></sub>(<var>P</var><var>Q</var> ± <var>F</var>√<var>Φ</var>) ÷ <var>h</var><sub><var>v</var></sub>(<var>P</var><sup>2</sup> − <var>F</var><sup>2</sup>)</td>
 <td>=</td>
@@ -422,7 +425,7 @@ Therefore
 <p>
 i.e.
 </p>
-<table class="display-equation">
+<table class="display-equation tight-top">
 <tr>
 <td>d<var>v</var>/d<var>u</var>&nbsp;(2.18)</td>
 <td>=</td>

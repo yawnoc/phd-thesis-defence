@@ -102,8 +102,11 @@
     font-size: var(--delimeter-size);
     margin-left: var(--norm-gap);
   }
+  .tight-bottom {
+    margin-bottom: -0.2em;
+  }
   .tight-top {
-    margin-top: -0.3em;
+    margin-top: -0.2em;
   }
   .thesis {
     margin: 0.4em 2em;
@@ -449,7 +452,7 @@ Z{%
   The calculus is sound.
   We have
   ----
-  ''''{.display-equation}
+  ''''{.display-equation .tight-bottom}
   ==
     , ({P}{Q} ± {F}√{Φ}) (−{Q}{F} ± {P}√{Φ})
     , =
@@ -483,7 +486,7 @@ Z{%
   ----
   Therefore
   ----
-  ''''{.display-equation}
+  ''''{.display-equation .tight-top .tight-bottom}
   ==
     , {h}.{u}({P}{Q} ± {F}√{Φ}) ÷ {h}.{v}({P}^2 − {F}^2)
     , =
@@ -494,7 +497,7 @@ Z{%
   ----
   i.e.
   ----
-  ''''{.display-equation}
+  ''''{.display-equation .tight-top}
   ==
     , d{v}/d{u}~(2.18)
     , =
