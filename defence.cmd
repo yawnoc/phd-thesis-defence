@@ -374,14 +374,17 @@ Z{%
 4.{#2-1-fluid}
   """"{.examiner}
   General: Did you consider looking at fluid-flow problems?
-  """"
-  """"{.examiner}
   For example, could you identify interesting Rankine bodies
   using this technique?
-  """"
-  """"{.examiner}
   Stokes flow is also a Laplace equation.
   """"
+  ----
+  No.
+  Boundary tracing requires a flux boundary condition
+  where the flux depends on position, solution, and slope.
+  As far as I am aware, Rankine body and Stokes flow problems
+  do not have such a flux condition.
+  ----
 ++++++
 
 #### Chapter~2 ####
