@@ -1147,4 +1147,10 @@ Z{%
   seeing the immense application complex variables has for Laplace's equation.
   Can you comment more on this.
   """"
+  ----
+  The complex variable and conformal mapping material
+  came to being very late in the candidature.
+  I did not have enough time to develop it fully,
+  but knew that I had to include it in the thesis.
+  ----
 ++++++
