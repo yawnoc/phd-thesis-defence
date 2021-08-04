@@ -194,8 +194,8 @@ Z{%
   """"
   ----
   By 'practically negligible' I mean that
-  the __dimensionless self-viewing ratio~{R}__ (equation~(3.24), Page~24)
-  __falls below~1%__ (an arbitrarily chosen cutoff).
+  the dimensionless self-viewing ratio~{R} (equation~(3.24), Page~24)
+  falls below~1% (an arbitrarily chosen cutoff).
   At any point on the boundary, {R}~is the ratio between
   the amount of inbound self-viewing radiation
   (which boundary tracing does *not* account for)
@@ -215,14 +215,14 @@ Z{%
   ----
   ====
   * [Solid black curves]:
-      __traced boundaries__, which satisfy the radiation condition.
+      traced boundaries, which satisfy the radiation condition.
       There are two branches of these (upper and lower).
   * [Dotted black line]:
-      __constant-temperature__ (heat-supplying) boundary.
+      constant-temperature (heat-supplying) boundary.
   * [Grey regions]:
-      __non-viable domain__, in which traced boundaries do not exist.
+      non-viable domain, in which traced boundaries do not exist.
   * [Grey curves]:
-      __inflection frontiers__,
+      inflection frontiers,
       where each branch of traced boundaries inflects.
   ====
   ----
@@ -252,11 +252,11 @@ Z{%
   ----
   When something interesting happens
   (e.g.~a terminal point or curve appears or disappears)
-  I call it a __transition__.
+  I call it a _transition_.
   The naming of regimes on either side of a transition
   comes from the dimensionless group~{A}.
   Since {A}~is inversely proportional to the temperature scale cubed,
-  small~{A} is __hot__, while large~{A} is __cold__.
+  small~{A} is _hot_, while large~{A} is _cold_.
   ----
 
 5.{#1-novelty}
@@ -268,7 +268,7 @@ Z{%
   """"
   ----
   The novelty lies in the observation that we may use
-  a __different contact angle__ when boundary tracing
+  a *different contact angle* when boundary tracing
   to the contact angle of the known wedge solution.
   This observation was *not* made in my Honours thesis.
   ----
@@ -296,16 +296,16 @@ Z{%
   What results(s) is/are you most proud of? Why?
   """"
   ====
-  * The __self-viewing radiation analysis__ and the __physical example__
+  * The self-viewing radiation analysis and the physical example
     for the plane-source fin.
     These turned what was originally a rather meagre chapter
     into the centrepiece of the radiation section
     (the narrative was changed from "alas we have no convex boundaries"
     to "look we can salvage practical results").
-  * The __etching of grooves__ in the dip-coating problem.
+  * The etching of grooves in the dip-coating problem.
     It was quite satisfying to see the numerical verification
     (Figure~7.23, Page~128).
-  * The __new interpretation__ of the comparison observation (capillarity)
+  * The new interpretation of the comparison observation (capillarity)
     that ties in with the roughness theory.
     This was very neat, in my opinion.
   ====
@@ -318,7 +318,7 @@ Z{%
   """"
   ----
   Definitely I would further develop the ideas in Appendix~C
-  (boundary tracing in the __complex plane__ using __conformal mapping__).
+  (boundary tracing in the complex plane using conformal mapping).
   This looks a promising area for future research.
   ----
 ++++++
@@ -362,7 +362,7 @@ Z{%
   Isn't it parallel to all T-contours?
   """"
   ----
-  Here, ||[del]{T}|| = |{F}| is **not an identity**.
+  Here, ||[del]{T}|| = |{F}| is not an identity.
   It holds only at the point in question. \+
   From Page~2:
   ----
@@ -385,12 +385,12 @@ Z{%
   where non-uniform boundaries can be triangulated?
   """"
   ----
-  Boundary tracing offers __exactness__.
+  Boundary tracing offers exactness.
   The hypergeometric (2F1) boundaries for the plane source are *exact*
   (notwithstanding self-viewing radiation).
   And although we need numerical integration for the other cases,
-  numerically solving ODEs is an __elementary process__.
-  It is __cheaper__ and much __more straightforward__
+  numerically solving ODEs is an elementary process.
+  It is cheaper and much more straightforward
   than solving PDEs numerically.
   ----
 
@@ -539,7 +539,7 @@ Z{%
   """"
   ----
   No, but this would be a good way to extend the results.
-  In radiation transfer problems, the relevant measure is __fin efficiency__,
+  In radiation transfer problems, the relevant measure is _fin efficiency_,
   which is the ratio between the actual amount of heat transferred
   and the amount that would be transferred
   if the entire surface were at the base temperature
