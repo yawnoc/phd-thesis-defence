@@ -594,6 +594,12 @@ Z{%
   A perfectly symmetric shape should never have incident radiation
   from different values of z as the normal vectors are parallel.
   """"
+  ----
+  See Figure~3.6.
+  We have elements~d{A} and~d{A}\*, with {z} ≠ {z}\*.
+  Their normal vectors are parallel if and only if {x} = {x}\*.
+  Thus, there will be self-viewing radiation whenever {x} ≠ {x}\*.
+  ----
 
 6.{#2-3-point}
   """"{.examiner}
