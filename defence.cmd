@@ -940,6 +940,12 @@ Z{%
   for the re-entrant wedge and the trouble near the corner.
   It is an extreme case of deflection.
   """"
+  ----
+  The deflection of the traced boundaries away from the walls
+  is unrelated to the numerical trouble near the corner.
+  The deflection occurs because of sign changes in various derivatives
+  as we change from convex to re-entrant.
+  ----
 
 4.{#2-7-smooth}
   """"{.examiner}
