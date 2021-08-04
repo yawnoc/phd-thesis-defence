@@ -854,6 +854,11 @@ Z{%
   Does it not make sense to choose the smallest gamma possible then
   to increase the probability that a given gamma\_dot satisfies the inequality.
   """"
+  ----
+  Yes, that does make sense.
+  But larger~{γ} might lead to rounding shapes/radii
+  that cannot be achieved with smaller~{γ}.
+  ----
 
 3.{#2-6-advantage}
   """"{.examiner}
