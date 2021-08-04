@@ -785,11 +785,29 @@ Z{%
   Pg~74: This “tear-drop” looks a lot like an airfoil with a puncture.
   General: Why not consider a doublet?
   """"
+  ----
+  For the conduction--radiation problem we need non-negative temperatures.
+  A dipole does not have a physical interpretation in this context,
+  because there is no way to isolate the positive part of the dipole.
+  ----
   """"{.examiner}
   This is a limiting bipolar scenario and may reveal
   some interesting connection to the polar coordinates example.
   I guess it is in the cold regime, but what about uneven source/sink?
   """"
+  ----
+  Yes, we could extend the work
+  to uneven source and sink (with finite separation).
+  This would introduce a second dimensionless group (the strength ratio)
+  because we no longer have the cancellation mentioned in the footnote
+  of Page~63.
+  However, the curves of constant temperature would no longer be circles.
+  ----
+  ----
+  An alternative way of introducing a second parameter
+  that does not change the shape of the {T}-contours
+  is to add a constant to the known solution.
+  ----
 ++++++
 
 ### Chapter~6 ###
