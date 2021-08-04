@@ -952,6 +952,9 @@ Z{%
   Pg~122: Figure~7.17 the height appears not to be smooth.
   Can you comment on this?
   """"
+  ----
+  Here we have a relatively low number of mesh elements.
+  ----
 
 5.{#2-7-complexity}
   """"{.examiner}
