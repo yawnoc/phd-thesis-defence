@@ -16,7 +16,7 @@
   @page {
     border-top: var(--solid-line);
     margin: 2cm;
-    padding-top: 0.3em;
+    padding-top: 0.5em;
     size: A4;
     @top-left {
       content: "Conway Li";
