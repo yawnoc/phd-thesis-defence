@@ -115,6 +115,7 @@
 %%
 
 e{: [del] : \/__{.del .vector} ∇__ :}
+e{: [.] : \/__{.vector} ·__ :}
 
 c{%
   \|\|
@@ -552,6 +553,28 @@ Z{%
   When you patch curves together you have a superposition
   that breaks the math problem?
   """"
+  ----
+  The patching together of curves is perfectly fine.
+  The solution to the field equation is the known solution, {T} = {x}.
+  There is no superposition.
+  ----
+  ----
+  The issue of self-viewing radiation is specific to
+  the radiation boundary condition.
+  If the boundary is not convex
+  (i.e.~if there are boundary elements that face each other):
+  ----
+  """"{.thesis}
+  some of the outgoing radiation travels not to infinity,
+  but strikes another part of the boundary,
+  where it might be partially or fully absorbed.
+  """"
+  ----
+  Our simple radiation condition [n] [.] [del]{T} = −{T}^4
+  only describes outgoing radiation.
+  To account for incoming self-viewing radiation,
+  we need a non-local integral term, per~(3.23).
+  ----
 
 4.{#2-3-images}
   """"{.examiner}
