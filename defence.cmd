@@ -513,6 +513,20 @@ Z{%
   Pg~23: Other than self-viewing radiation, are there any other issues
   with having a non-differentiable domain?
   """"
+  ----
+  Self-viewing radiation arises not from non-differentiability,
+  but from non-convexity (i.e.~boundary elements facing each other).
+  ----
+  ----
+  The issue of non-differentiability arose
+  in a discussion with some colleagues in analysis,
+  who were concerned about the possibility of line-source singularities
+  spontaneously appearing in corners and cusps on the boundary.
+  Due to conservation of energy, singularities cannot appear in this manner
+  unless we deliberately put them there to begin with.
+  With singularities ruled out, the corners and cusps
+  (which take up zero length along the boundary) are inconsequential.
+  ----
 
 2.{#2-3-brachistochrome}
   """"{.examiner}
