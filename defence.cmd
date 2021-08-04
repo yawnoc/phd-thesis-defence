@@ -582,6 +582,10 @@ Z{%
   Is there a method of images type approach you can use
   to extend this technique further?
   """"
+  ----
+  There is no superposition.
+  See [previous](#2-3-superposition).
+  ----
 
 5.{#2-3-z}
   """"{.examiner}
