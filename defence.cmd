@@ -1056,11 +1056,28 @@ Z{%
 4.{#2-8-context}
   """"{.examiner}
   General: Can you give the context/importance of section 8.3?
+  """"
+  ----
+  Here we are looking at the very general problem
+  of whether we can bound the capillary height
+  that results from a general modification to a corner.
+  ----
+  """"{.examiner}
   Why do we want to consider non-rounded corners?
   """"
+  ----
+  Because we are curious to see whether these can lead to more general results,
+  in the same way that the roughness results emerged in Chapter~7.
+  ----
   """"{.examiner}
   What is the value of the result of bounded height?
   """"
+  ----
+  The corollary on Page~147 is a stronger result than just saying that
+  rounding reduces height rise in a convex wedge.
+  It says that a truncation along a viable contour of the existing wedge
+  will reduce the height rise to that contour's height or lower.
+  ----
 ++++++
 
 ### Chapter~9 ###
