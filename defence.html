@@ -595,10 +595,21 @@ Afterall, this is precisely a method for designing boundaries
 that make the solutions work.
 Is the issue the incompatibility of boundary conditions at the corners?
 </blockquote>
+<p>
+The issue is with the numerical solver (<code>NDSolve`FEM`</code>)
+and how it handles corners where different boundary conditions meet.
+</p>
 <blockquote class="examiner">
 Did you consider numerical refinement of the mesh to see
 if the error scales with the correct numerical order of the method?
 </blockquote>
+<p>
+No, but this is a good idea.
+(In doing so, one would also need to increase the precision
+when numerically integrating for the traced boundaries,
+because there is no point making the verification mesh-refinement
+greater than that of the traced boundaries.)
+</p>
 </li>
 <li id="2-3-estimates"><blockquote class="examiner">
 Pg&nbsp;43: Did you consider an example with non-convex boundaries

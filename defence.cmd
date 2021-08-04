@@ -687,11 +687,21 @@ Z{%
   that make the solutions work.
   Is the issue the incompatibility of boundary conditions at the corners?
   """"
-
+  ----
+  The issue is with the numerical solver (`` NDSolve`FEM` ``)
+  and how it handles corners where different boundary conditions meet.
+  ----
   """"{.examiner}
   Did you consider numerical refinement of the mesh to see
   if the error scales with the correct numerical order of the method?
   """"
+  ----
+  No, but this is a good idea.
+  (In doing so, one would also need to increase the precision
+  when numerically integrating for the traced boundaries,
+  because there is no point making the verification mesh-refinement
+  greater than that of the traced boundaries.)
+  ----
 
 12.{#2-3-estimates}
   """"{.examiner}
