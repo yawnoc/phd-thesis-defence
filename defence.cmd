@@ -571,7 +571,7 @@ Z{%
   where it might be partially or fully absorbed.
   """"
   ----
-  Our simple radiation condition [n] [.] [del]{T} = −{T}^4
+  The simple radiation condition [n] [.] [del]{T} = −{T}^4
   only describes outgoing radiation.
   To account for incoming self-viewing radiation,
   we need a non-local integral term, per~(3.23) (Page~24).
