@@ -253,7 +253,7 @@ Z{%
         ====
       * [Chapter~8]: small
         ====
-        - Extraced 1/{r} singularity to determine numerical solutions
+        - Extracted 1/{r} singularity to determine numerical solutions
         - Applied boundary tracing (one-parameter family or roundings)
         - Re-interpreted a comparison observation using roughness theory
         - Obtained a corollary for corner modifications
