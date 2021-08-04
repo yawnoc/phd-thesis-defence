@@ -71,6 +71,9 @@
     margin-top: 0.5em;
     margin-bottom: 0;
   }
+  sub {
+    line-height: 0;
+  }
   .abs-open {
     font-size: var(--delimeter-size);
     margin-right: var(--abs-gap);
