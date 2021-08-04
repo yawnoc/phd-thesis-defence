@@ -367,7 +367,7 @@ Z{%
   From Page~2:
   ----
   """"""{.thesis}
-  [...] and there are three cases at any given point:
+  [...] and there are three cases <mark>at any given point</mark>:
   ++++
   1. If ||[del]{T}|| \> |{F}|, then [...]
   2. If ||[del]{T}|| = |{F}|, then [...]
