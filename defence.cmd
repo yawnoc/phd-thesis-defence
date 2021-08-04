@@ -771,6 +771,14 @@ Z{%
   Pg~69: The difference between the two transition A values is 0.7
   which is not very large. Is there any significance to this?
   """"
+  ----
+  This comes down to algebra.
+  From Figure~5.3 (Page~68), the two transition values of {A} occur
+  when the quartic curve~{v}^4 / A
+  touches the exponential curves~cosh {v} ± 1.
+  Because all three curves are rapidly increasing,
+  there is not much difference between the two values of {A}.
+  ----
 
 2.{#2-5-doublet}
   """"{.examiner}
