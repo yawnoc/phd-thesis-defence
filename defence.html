@@ -766,6 +766,12 @@ Pg.&nbsp;110: You claim that the advantage of boundary tracing for wedge flow
 is a single BVP computation and N boundary solves vs N BVP solves.<br>
 1) Can you comment on the difference in computation time of the two methods.
 </blockquote>
+<p>
+A single BVP computation takes between half a minute to half an hour,
+depending on the parameters (<var>α</var> and&nbsp;<var>γ</var>).
+Integrating an ODE for a traced boundary takes about a second
+in the worst case.
+</p>
 <blockquote class="examiner">
 2) In Figure&nbsp;6.31 you only do a subset of boundary tracing
 whereas you have a nice full curve using the numerical method.
@@ -773,6 +779,33 @@ This makes the numerical method look better.
 Furthermore, you have errors between the boundary tracing and numerics,
 is this error worth the computational speedup?
 </blockquote>
+<p>
+Yes, the limited range is a downside (Pages&nbsp;108–109):
+</p>
+<blockquote class="thesis">
+Evidently the range of rounding radii
+which can be accounted for in this manner
+is directly related to the spread of the corner roundings,
+over which we have no control.
+The main weakness of boundary tracing is that
+one cannot predetermine the shape of the resulting traced boundaries,
+but this is to be expected for a method where, by its very nature,
+boundary shape is the unknown.
+</blockquote>
+<p>
+As is the discrepancy (Page&nbsp;109):
+</p>
+<blockquote class="thesis">
+The two approaches do not give exactly the same height rises
+because the rounding curves produced by boundary tracing
+are not perfectly circular.
+</blockquote>
+<p>
+Given an already-computed numerical solution (sunk cost),
+I would say that using boundary tracing is strictly advantageous.
+There is the possibility of obtaining <em>additional</em> results cheaply;
+at worst, we have what we already have.
+</p>
 </li>
 </ol>
 <h3>Chapter&nbsp;7</h3>

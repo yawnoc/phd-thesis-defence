@@ -866,6 +866,12 @@ Z{%
   is a single BVP computation and N boundary solves vs N BVP solves. \+
   1) Can you comment on the difference in computation time of the two methods.
   """"
+  ----
+  A single BVP computation takes between half a minute to half an hour,
+  depending on the parameters ({α} and~{γ}).
+  Integrating an ODE for a traced boundary takes about a second
+  in the worst case.
+  ----
   """"{.examiner}
   2) In Figure~6.31 you only do a subset of boundary tracing
   whereas you have a nice full curve using the numerical method.
@@ -873,6 +879,33 @@ Z{%
   Furthermore, you have errors between the boundary tracing and numerics,
   is this error worth the computational speedup?
   """"
+  ----
+  Yes, the limited range is a downside (Pages~108--109):
+  ----
+  """"{.thesis}
+  Evidently the range of rounding radii
+  which can be accounted for in this manner
+  is directly related to the spread of the corner roundings,
+  over which we have no control.
+  The main weakness of boundary tracing is that
+  one cannot predetermine the shape of the resulting traced boundaries,
+  but this is to be expected for a method where, by its very nature,
+  boundary shape is the unknown.
+  """"
+  ----
+  As is the discrepancy (Page~109):
+  ----
+  """"{.thesis}
+  The two approaches do not give exactly the same height rises
+  because the rounding curves produced by boundary tracing
+  are not perfectly circular.
+  """"
+  ----
+  Given an already-computed numerical solution (sunk cost),
+  I would say that using boundary tracing is strictly advantageous.
+  There is the possibility of obtaining *additional* results cheaply;
+  at worst, we have what we already have.
+  ----
 ++++++
 
 ### Chapter~7 ###
