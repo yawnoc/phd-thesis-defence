@@ -607,6 +607,16 @@ Z{%
   However, Laplace's equation cannot admit point constraints,
   what is happening here?
   """"
+  ----
+  The domain (the region enclosed by the radiation boundary
+  and the constant-temperature boundary, which both shrink to a point)
+  likewise shrinks to a point.
+  Per the original footnote:
+  ----
+  """"{.thesis}
+  At {A} = 1 the candidate boundary touches the line {x} = π/2,
+  and the candidate <mark>domain</mark> shrinks to a point.
+  """"
 
 7.{#2-3-terminal}
   """"{.examiner}
