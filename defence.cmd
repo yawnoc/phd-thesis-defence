@@ -703,12 +703,17 @@ Z{%
   greater than that of the traced boundaries.)
   ----
 
-12.{#2-3-estimates}
+11.{#2-3-estimates}
   """"{.examiner}
   Pg~43: Did you consider an example with non-convex boundaries
   to demonstrate the impact of the self-radiation
   and how it compares to some of your bounds and estimates?
   """"
+  ----
+  No. `` NDSolve`FEM` `` cannot handle non-local boundary conditions.
+  In principle though, one could do a fixed-point iteration
+  where the self-viewing term is pre-computed from the previous iterate.
+  ----
 ++++++
 
 #### Chapter~4 ####

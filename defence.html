@@ -616,6 +616,11 @@ Pg&nbsp;43: Did you consider an example with non-convex boundaries
 to demonstrate the impact of the self-radiation
 and how it compares to some of your bounds and estimates?
 </blockquote>
+<p>
+No. <code>NDSolve`FEM`</code> cannot handle non-local boundary conditions.
+In principle though, one could do a fixed-point iteration
+where the self-viewing term is pre-computed from the previous iterate.
+</p>
 </li>
 </ol>
 <h4>Chapter&nbsp;4</h4>
