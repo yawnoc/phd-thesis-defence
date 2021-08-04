@@ -528,13 +528,21 @@ Z{%
   (which take up zero length along the boundary) are inconsequential.
   ----
 
-2.{#2-3-brachistochrome}
+2.{#2-3-brachistochrone}
   """"{.examiner}
   General: The boundary traces seem to represent symmetries in the physics.
   A certain amount of stuff has to get out and that can be done in many ways.
   In the spirit of a brachistochrome problem, did you consider shapes
   which get it out efficiently (i.e. maximize/minimize arclength)?
   """"
+  ----
+  No, but this would be a good way to extend the results.
+  In radiation transfer problems, the relevant measure is __fin efficiency__,
+  which is the ratio between the actual amount of heat transferred
+  and the amount that would be transferred
+  if the entire surface were at the base temperature
+  (or equivalently, if the fin conductivity were infinite).
+  ----
 
 3.{#2-3-superposition}
   """"{.examiner}
