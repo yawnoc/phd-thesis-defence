@@ -9,6 +9,8 @@
     --solid-line-thick: 3px solid black;
     --line-grey: #949494;
     --text-grey: #595959;
+    --abs-gap: 0.075em;
+    --norm-gap: 0.2em;
   }
   @page {
     border-top: var(--solid-line);
@@ -68,39 +70,49 @@
     margin-top: 0.5em;
     margin-bottom: 0;
   }
+  .abs-open {
+    margin-right: var(--abs-gap);
+  }
+  .abs-close {
+    margin-left: var(--abs-gap);
+  }
   .examiner {
     color: var(--text-grey);
     border-color: var(--line-grey);
     font-family: Arimo, sans-serif;
   }
+  .norm-open {
+    margin-right: var(--norm-gap);
+  }
+  .norm-close {
+    margin-left: var(--norm-gap);
+  }
   .thesis {
     margin: 0.4em 2em;
-  }
-  .abs-operand {
-    margin: 0 0.075em;
-  }
-  .norm-operand {
-    margin: 0 0.2em;
   }
 ~~~~~~~~
 %%
 
 e{: \del : \/__{.vector} ∇__ :}
 
-Z{%
+c{%
   \|\|
     (?P<operand> .+? )
   \|\|
 %
-  ~~||~~<span class="norm-operand">\g<operand></span>~~||~~
+  <span class="norm-open">~~||~~</span>\\
+    \g<operand>\\
+  <span class="norm-close">~~||~~</span>
 %}
 
-Z{%
+c{%
   \|
     (?P<operand> .+? )
   \|
 %
-  ~~|~~<span class="abs-operand">\g<operand></span>~~|~~
+  <span class="abs-open">~~|~~</span>\\
+    \g<operand>\\
+  <span class="abs-close">~~|~~</span>
 %}
 
 Z{%
