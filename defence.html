@@ -72,7 +72,7 @@ p {
 margin-top: 0.5em;
 margin-bottom: 0;
 }
-sub {
+sub, sup {
 line-height: 0;
 }
 .abs-open {
@@ -87,6 +87,9 @@ margin-left: var(--abs-gap);
 font-family: 'DejaVu Sans';
 font-size: 0.985em;
 }
+.display-equation {
+margin: 0.2em auto;
+}
 .examiner {
 color: var(--text-grey);
 border-color: var(--line-grey);
@@ -99,6 +102,9 @@ margin-right: var(--norm-gap);
 .norm-close {
 font-size: var(--delimeter-size);
 margin-left: var(--norm-gap);
+}
+.tight-top {
+margin-top: -0.3em;
 }
 .thesis {
 margin: 0.4em 2em;
@@ -360,6 +366,69 @@ Pg&nbsp;15: Double check calculus for (2.24) and (2.25).
 It should have du/dv=du/ds/dv/ds
 but it is not immediately clear this is true.
 </blockquote>
+<p>
+The calculus is sound.
+We have
+</p>
+<table class="display-equation">
+<tr>
+<td>(<var>P</var><var>Q</var> ± <var>F</var>√<var>Φ</var>) (−<var>Q</var><var>F</var> ± <var>P</var>√<var>Φ</var>)</td>
+<td>=</td>
+<td>−<var>P</var><var>F</var><var>Q</var><sup>2</sup> ± <var>P</var><sup>2</sup><var>Q</var>√<var>Φ</var> ± (−<var>F</var><sup>2</sup><var>Q</var>)√<var>Φ</var> + <var>P</var><var>F</var><var>Φ</var></td>
+</tr>
+<tr>
+<td></td>
+<td>=</td>
+<td>(<var>Φ</var> − <var>Q</var><sup>2</sup>)<var>P</var><var>F</var> ± (<var>P</var><sup>2</sup> − <var>F</var><sup>2</sup>)<var>Q</var>√<var>Φ</var></td>
+</tr>
+<tr>
+<td></td>
+<td>=</td>
+<td>(<var>P</var><sup>2</sup> − <var>F</var><sup>2</sup>)<var>P</var><var>F</var> ± (<var>P</var><sup>2</sup> − <var>F</var><sup>2</sup>)<var>Q</var>√<var>Φ</var></td>
+</tr>
+<tr>
+<td></td>
+<td>=</td>
+<td>(<var>P</var><sup>2</sup> − <var>F</var><sup>2</sup>) (<var>P</var><var>F</var> ± <var>Q</var>√<var>Φ</var>).</td>
+</tr>
+</table>
+<p>
+Cross-dividing gives
+</p>
+<table class="display-equation">
+<tr>
+<td>(<var>P</var><var>Q</var> ± <var>F</var>√<var>Φ</var>) ÷ (<var>P</var><sup>2</sup> − <var>F</var><sup>2</sup>)</td>
+<td>=</td>
+<td>(<var>P</var><var>F</var> ± <var>Q</var>√<var>Φ</var>) ÷ (−<var>Q</var><var>F</var> ± <var>P</var>√<var>Φ</var>)</td>
+</tr>
+<tr>
+<td></td>
+<td>=</td>
+<td>(<var>P</var><var>F</var> ± <var>Q</var>√<var>Φ</var>) / (<b class="del vector">∇</b><var>T</var>)<sup>2</sup> ÷ (−<var>Q</var><var>F</var> ± <var>P</var>√<var>Φ</var>) / (<b class="del vector">∇</b><var>T</var>)<sup>2</sup>.</td>
+</tr>
+</table>
+<p>
+Therefore
+</p>
+<table class="display-equation">
+<tr>
+<td><var>h</var><sub><var>u</var></sub>(<var>P</var><var>Q</var> ± <var>F</var>√<var>Φ</var>) ÷ <var>h</var><sub><var>v</var></sub>(<var>P</var><sup>2</sup> − <var>F</var><sup>2</sup>)</td>
+<td>=</td>
+<td>(<var>P</var><var>F</var> ± <var>Q</var>√<var>Φ</var>) / <var>h</var><sub><var>v</var></sub>(<b class="del vector">∇</b><var>T</var>)<sup>2</sup>
+÷
+(−<var>Q</var><var>F</var> ± <var>P</var>√<var>Φ</var>) / <var>h</var><sub><var>u</var></sub>(<b class="del vector">∇</b><var>T</var>)<sup>2</sup>,</td>
+</tr>
+</table>
+<p>
+i.e.
+</p>
+<table class="display-equation">
+<tr>
+<td>d<var>v</var>/d<var>u</var>&nbsp;(2.18)</td>
+<td>=</td>
+<td>d<var>v</var>/d<var>s</var>&nbsp;(2.25) ÷ d<var>u</var>/d<var>s</var>&nbsp;(2.24).</td>
+</tr>
+</table>
 </li>
 </ol>
 <h4>Chapter&nbsp;3</h4>

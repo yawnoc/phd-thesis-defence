@@ -71,7 +71,7 @@
     margin-top: 0.5em;
     margin-bottom: 0;
   }
-  sub {
+  sub, sup {
     line-height: 0;
   }
   .abs-open {
@@ -86,6 +86,9 @@
     font-family: 'DejaVu Sans';
     font-size: 0.985em;
   }
+  .display-equation {
+    margin: 0.2em auto;
+  }
   .examiner {
     color: var(--text-grey);
     border-color: var(--line-grey);
@@ -98,6 +101,9 @@
   .norm-close {
     font-size: var(--delimeter-size);
     margin-left: var(--norm-gap);
+  }
+  .tight-top {
+    margin-top: -0.3em;
   }
   .thesis {
     margin: 0.4em 2em;
@@ -129,7 +135,7 @@ c{%
 
 s{%
   \[
-    (?P<symbol> [a-zA-Z] )
+    (?P<symbol> [^\s0-9] )
   \]
 %
   __{.vector} \g<symbol>__
@@ -137,7 +143,7 @@ s{%
 
 s{%
   \.\{
-    (?P<variable> [a-zA-Z] )
+    (?P<variable> [^\s0-9] )
   \}
 %
   <sub>{\g<variable>}</sub>
@@ -145,10 +151,16 @@ s{%
 
 s{%
   \{
-    (?P<variable> [a-zA-Z] )
+    (?P<variable> [^\s0-9] )
   \}
 %
   <var>\g<variable></var>
+%}
+
+Z{%
+  \^ (?P<exponent> [0-9] )
+%
+  <sup>\g<exponent></sup>
 %}
 
 
@@ -433,6 +445,61 @@ s{%
   It should have du/dv=du/ds/dv/ds
   but it is not immediately clear this is true.
   """"
+  ----
+  The calculus is sound.
+  We have
+  ----
+  ''''{.display-equation}
+  ==
+    , ({P}{Q} ± {F}√{Φ}) (−{Q}{F} ± {P}√{Φ})
+    , =
+    , −{P}{F}{Q}^2 ± {P}^2{Q}√{Φ} ± (−{F}^2{Q})√{Φ} + {P}{F}{Φ}
+  ==
+    ,
+    , =
+    , ({Φ} − {Q}^2){P}{F} ± ({P}^2 − {F}^2){Q}√{Φ}
+  ==
+    ,
+    , =
+    , ({P}^2 − {F}^2){P}{F} ± ({P}^2 − {F}^2){Q}√{Φ}
+  ==
+    ,
+    , =
+    , ({P}^2 − {F}^2) ({P}{F} ± {Q}√{Φ}).
+  ''''
+  ----
+  Cross-dividing gives
+  ----
+  ''''{.display-equation}
+  ==
+    , ({P}{Q} ± {F}√{Φ}) ÷ ({P}^2 − {F}^2)
+    , =
+    , ({P}{F} ± {Q}√{Φ}) ÷ (−{Q}{F} ± {P}√{Φ})
+  ==
+    ,
+    , =
+    , ({P}{F} ± {Q}√{Φ}) / ([del]{T})^2 ÷ (−{Q}{F} ± {P}√{Φ}) / ([del]{T})^2.
+  ''''
+  ----
+  Therefore
+  ----
+  ''''{.display-equation}
+  ==
+    , {h}.{u}({P}{Q} ± {F}√{Φ}) ÷ {h}.{v}({P}^2 − {F}^2)
+    , =
+    , ({P}{F} ± {Q}√{Φ}) / {h}.{v}([del]{T})^2
+        ÷
+      (−{Q}{F} ± {P}√{Φ}) / {h}.{u}([del]{T})^2,
+  ''''
+  ----
+  i.e.
+  ----
+  ''''{.display-equation}
+  ==
+    , d{v}/d{u}~(2.18)
+    , =
+    , d{v}/d{s}~(2.25) ÷ d{u}/d{s}~(2.24).
+  ''''
 ++++++
 
 #### Chapter~3 ####
