@@ -79,6 +79,10 @@
     font-size: var(--delimeter-size);
     margin-left: var(--abs-gap);
   }
+  .del {
+    font-family: 'DejaVu Sans';
+    font-size: 0.985em;
+  }
   .examiner {
     color: var(--text-grey);
     border-color: var(--line-grey);
@@ -98,7 +102,7 @@
 ~~~~~~~~
 %%
 
-e{: \del : \/__{.vector} ∇__ :}
+e{: \del : \/__{.del .vector} ∇__ :}
 
 c{%
   \|\|
