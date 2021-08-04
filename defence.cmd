@@ -820,15 +820,32 @@ Z{%
   and so you can have a separate gamma for the BVP than a gamma for the BC.
   Why not pick different BC all together for the BVP solve?
   """"
-
+  ----
+  Yes, different boundary conditions can be used for the initial solve.
+  In fact, one could probably perturb the shape of the corner roundings
+  by perturbing the boundary condition in the initial solve.
+  ----
+  ----
+  But given that we have already computed wedge solutions
+  using the original contact condition,
+  we do not let them go to waste.
+  ----
   """"{.examiner}
   Are there boundary conditions
   where special analytical solutions can be found?
   """"
-
+  ----
+  The only known analytical solutions to the Laplace--Young equation
+  are the half-plane solution and the channel solution.
+  Both of these have already been studied in the boundary tracing context.
+  ----
   """"{.examiner}
   Are there BCS that make the computation easier to solve?
   """"
+  ----
+  Dirichlet condition on the boundary would probably be cheaper computationally
+  than the nonlinear contact condition.
+  ----
 
 2.{#2-6-gamma}
   """"{.examiner}
