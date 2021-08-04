@@ -916,6 +916,11 @@ Z{%
   Pg~112: You notice a discrepancy of \>10% in the re-entrant wedge.
   Can you comment on why this might be?
   """"
+  ----
+  More refinement is required, per the "further investigation".
+  A lot of unexpected behaviour is possible
+  for the Laplace--Young equation in a re-entrant wedge.
+  ----
 
 2.{#2-7-hybrid}
   """"{.examiner}
