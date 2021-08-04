@@ -81,9 +81,6 @@ margin-right: var(--abs-gap);
 font-size: var(--delimeter-size);
 margin-left: var(--abs-gap);
 }
-.accidental {
-font-family: 'DejaVu Sans';
-}
 .del {
 font-family: 'DejaVu Sans';
 font-size: 0.985em;
@@ -103,6 +100,9 @@ margin-right: var(--norm-gap);
 .norm-close {
 font-size: var(--delimeter-size);
 margin-left: var(--norm-gap);
+}
+.subscript-symbol {
+font-family: 'DejaVu Sans';
 }
 .tight-bottom {
 margin-bottom: -0.2em;
@@ -538,9 +538,9 @@ Is there something deeper about the problem this is exposing?
 </blockquote>
 <p>
 The saddle–node structure of Figure&nbsp;3.20
-merely reflects the birth of a pair of real roots (<var>x</var><sub class="accidental">♭</sub> and&nbsp;<var>x</var><sub class="accidental">♯</sub>)
+merely reflects the birth of a pair of real roots (<var>x</var><sub class="subscript-symbol">♭</sub> and&nbsp;<var>x</var><sub class="subscript-symbol">♯</sub>)
 for the polynomial equation&nbsp;(3.64) (Page&nbsp;38),
-as <var>B</var>&nbsp;increases past&nbsp;<var>B</var><sub class="accidental">♮</sub>.
+as <var>B</var>&nbsp;increases past&nbsp;<var>B</var><sub class="subscript-symbol">♮</sub>.
 </p>
 <blockquote class="examiner">
 What is special about B=1?
@@ -564,7 +564,7 @@ as discussed earlier (Pages&nbsp;32–34).
 </p>
 <p>
 Computer algebra was able to give me closed-form expressions
-for&nbsp;<var>x</var><sub class="accidental">♭</sub> and&nbsp;<var>x</var><sub class="accidental">♯</sub>, so I did not pass to asymptotics.
+for&nbsp;<var>x</var><sub class="subscript-symbol">♭</sub> and&nbsp;<var>x</var><sub class="subscript-symbol">♯</sub>, so I did not pass to asymptotics.
 </p>
 </li>
 <li id="2-3-errors"><blockquote class="examiner">
@@ -612,7 +612,7 @@ in the hot region?
 This comes down to the shape of the known solution.
 Physically, the non-viable domain is the region in which
 the solution is not steep enough to satisfy the boundary condition.
-In the hot regime (<var>A</var> &lt; <var>A</var><sub class="accidental">♮</sub>),
+In the hot regime (<var>A</var> &lt; <var>A</var><sub class="subscript-symbol">♮</sub>),
 there is an intermediate interval in radius
 where the solution (logarithmic in radius) is less steep
 than the boundary flux (4th power of logarithmic in radius).
@@ -624,7 +624,7 @@ when locally the curve is quadratic (and hence convex)?
 </blockquote>
 <p>
 "Convex at the point of tangency" means that the traced boundary
-(which touches the circle <var>r</var> = <var>r</var><sub class="accidental">♯</sub>)
+(which touches the circle <var>r</var> = <var>r</var><sub class="subscript-symbol">♯</sub>)
 must either coincide with the tangent line
 or deflect towards the inner (smaller&nbsp;<var>r</var>) side of it.
 Translating this to Figure&nbsp;4.7,
@@ -633,8 +633,8 @@ the traced boundary must stay on or to the left of the vertical line.
 <p>
 The first-order behaviour of the traced boundary
 as given in&nbsp;(4.35) (Page&nbsp;53) is quadratic
-because it is written in terms of <var>ξ</var> = <var>r</var> − <var>r</var><sub class="accidental">♯</sub>.
-Note that <var>ξ</var> = 0 is the circle <var>r</var> = <var>r</var><sub class="accidental">♯</sub>, not the tangent line.
+because it is written in terms of <var>ξ</var> = <var>r</var> − <var>r</var><sub class="subscript-symbol">♯</sub>.
+Note that <var>ξ</var> = 0 is the circle <var>r</var> = <var>r</var><sub class="subscript-symbol">♯</sub>, not the tangent line.
 The tangent line is given by&nbsp;(4.37) (which also has <var>ξ</var>&nbsp;quadratic).
 </p>
 <blockquote class="examiner">
@@ -855,6 +855,21 @@ Here we have a relatively low number of mesh elements.
 Pg&nbsp;128: What is the computational complexity of the etching
 vs just solving the full problem numerically.
 </blockquote>
+<ul>
+<li>[Etching]:
+after computing a single numerical wedge solution,
+we have a one-parameter family of <var>T</var>-contours for&nbsp;<var>γ</var><sub class="subscript-symbol">•</sub>
+(sufficiently large to ensure clearance from the corner).
+Computing the roughness profile&nbsp;(7.26) (Page&nbsp;125) costs nothing.
+Determining the groove separation&nbsp;(7.28) (Page&nbsp;126) costs nothing.
+Altogether, a single numerical wedge solution gives us results
+for multiple etching scenarios.
+</li>
+<li>[Direct numerics]:
+after computing a single numerical solution for a domain with grooves,
+we only have results for that particular etching scenario.
+</li>
+</ul>
 </li>
 <li id="2-7-etching"><blockquote class="examiner">
 General: Can you explain to me the point of the etching in Chapter&nbsp;7?

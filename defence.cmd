@@ -80,9 +80,6 @@
     font-size: var(--delimeter-size);
     margin-left: var(--abs-gap);
   }
-  .accidental {
-    font-family: 'DejaVu Sans';
-  }
   .del {
     font-family: 'DejaVu Sans';
     font-size: 0.985em;
@@ -102,6 +99,9 @@
   .norm-close {
     font-size: var(--delimeter-size);
     margin-left: var(--norm-gap);
+  }
+  .subscript-symbol {
+    font-family: 'DejaVu Sans';
   }
   .tight-bottom {
     margin-bottom: -0.2em;
@@ -168,13 +168,14 @@ Z{%
   <sup>\g<exponent></sup>
 %}
 
+s{: (dot) : • :}
 s{: (flat) : ♭ :}
 s{: (nat) : ♮ :}
 s{: (sharp) : ♯ :}
 Z{%
-  (?P<accidental> [♭♮♯] )
+  (?P<symbol> [•♭♮♯] )
 %
-  <sub class="accidental">\g<accidental></sub>
+  <sub class="subscript-symbol">\g<symbol></sub>
 %}
 
 
@@ -961,6 +962,19 @@ Z{%
   Pg~128: What is the computational complexity of the etching
   vs just solving the full problem numerically.
   """"
+  ====
+  * [Etching]:
+    after computing a single numerical wedge solution,
+    we have a one-parameter family of {T}-contours for~{γ}(dot)
+    (sufficiently large to ensure clearance from the corner).
+    Computing the roughness profile~(7.26) (Page~125) costs nothing.
+    Determining the groove separation~(7.28) (Page~126) costs nothing.
+    Altogether, a single numerical wedge solution gives us results
+    for multiple etching scenarios.
+  * [Direct numerics]:
+    after computing a single numerical solution for a domain with grooves,
+    we only have results for that particular etching scenario.
+  ====
 
 6.{#2-7-etching}
   """"{.examiner}
