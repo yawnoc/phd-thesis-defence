@@ -622,6 +622,14 @@ Z{%
   """"{.examiner}
   Pg~38: Can you clarify why the x-axis terminal points are interesting?
   """"
+  ----
+  Terminal points along the {x}-axis are interesting
+  because they are critical terminal points.
+  They provide opportunities to switch between upper and lower branches
+  without forming corners.
+  Ordinary terminal points do not work
+  because they give us a cusp with inconsistent boundary orientation.
+  ----
 
 8.{#2-3-saddle}
   """"{.examiner}
