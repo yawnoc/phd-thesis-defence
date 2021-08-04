@@ -63,7 +63,7 @@ ol.top-level > li {
 margin-bottom: 1.3em;
 }
 ol, ul {
-margin-top: 0.3em;
+margin: 0.3em 0;
 padding-left: 1.7em;
 }
 p {
@@ -122,6 +122,123 @@ margin: 0.4em 2em;
 Please summarise in 5&nbsp;minutes
 the main aims, methods and results of your work
 </blockquote>
+<p>
+[Aim]: apply the method of boundary tracing
+to the practical contexts of thermal radiation and capillarity.
+Both problems are hard because of nonlinearity.
+</p>
+<ul>
+<li>[Chapter&nbsp;2]: derived boundary tracing ODE(s) in orthogonal coordinates
+<ul>
+<li>Coordinate parametrisation for analytical work
+</li>
+<li>Arc-length parametrisation for numerical work
+</li>
+</ul>
+</li>
+<li>[Part&nbsp;I]: thermal radiation
+<ul>
+<li>[Methods]: scaling, analysis, numerical verification (finite elements)
+</li>
+<li>[Main results]:
+<ul>
+<li>[Chapter&nbsp;3]: Cartesian
+<ul>
+<li>Exact hypergeometric (2F1) fins for the plane-source…
+</li>
+<li>… up to self-viewing radiation (which we can estimate)
+</li>
+<li>Practical values in physical (unscaled) variables
+</li>
+<li>Directional dependence of radiation
+</li>
+<li>Lens-shaped and asymmetric domains from cosinusoidal solutions
+</li>
+</ul>
+</li>
+<li>[Chapter&nbsp;4]: polar
+<ul>
+<li>Three cases
+</li>
+<li>Convex domains only possible on a subinterval of the hot regime
+</li>
+<li>These are protrusions from a disk
+</li>
+<li>Physical intervals for temperature and power (per length)
+</li>
+</ul>
+</li>
+<li>[Chapter&nbsp;5]: bipolar
+<ul>
+<li>Five cases
+</li>
+<li>Inner and outer candidates
+</li>
+<li>Convexity analysis
+</li>
+<li>Physical intervals
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>[Part&nbsp;II]: capillary wedges
+<ul>
+<li>[Methods]: finite elements, asymptotics, geometrical interpretations
+</li>
+<li>[Main results]:
+<ul>
+<li>[Chapter&nbsp;6]: moderate convex
+<ul>
+<li>Obtained wedge solutions
+</li>
+<li>Observation that we can use a different contact angle
+</li>
+<li>One-parameter family of roundings per numerical wedge solution
+</li>
+</ul>
+</li>
+<li>[Chapter&nbsp;7]: re-entrant
+<ul>
+<li>Obtained wedge solutions
+</li>
+<li>One-parameter family of pseudo-roundings
+</li>
+<li>Recognised congruence of Michael Anderson's roughness work
+with Wenzel's early work
+</li>
+<li>Applied roughness to the dip-coating problem
+</li>
+<li>Devised a practical solution by etching indentations (grooves)
+</li>
+</ul>
+</li>
+<li>[Chapter&nbsp;8]: small
+<ul>
+<li>Extraced 1/<var>r</var> singularity to determine numerical solutions
+</li>
+<li>Applied boundary tracing (one-parameter family or roundings)
+</li>
+<li>Re-interpreted a comparison observation using roughness theory
+</li>
+<li>Obtained a corollary for corner modifications
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>[Appendix&nbsp;C]
+<ul>
+<li>Wrote down a nice equation in the complex plane
+for boundary tracing with Laplace's equation
+</li>
+</ul>
+</li>
+</ul>
 </li>
 <li id="1-negligible"><blockquote class="examiner">
 P37. You mention that you wish to find
@@ -1011,6 +1128,7 @@ applied boundary tracing to the conduction–radiation problem
 multiple corner roundings from a single capillary wedge solution
 </li>
 <li>[Chapter&nbsp;7]:
+family of pseudo-roundings;
 recognised the agreement between Michael Anderson's roughness
 and the early work by Wenzel;
 applied roughness theory to the dip-coating problem
@@ -1018,6 +1136,7 @@ applied roughness theory to the dip-coating problem
 </li>
 <li>[Chapter&nbsp;8]:
 performed 1/<var>r</var> singularity extraction and applied boundary tracing;
+family of pseudo-roundings;
 built on a comparison observation by obtaining a new interpretation
 that ties together with roughness theory
 </li>
