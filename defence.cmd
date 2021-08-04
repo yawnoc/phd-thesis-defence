@@ -665,6 +665,17 @@ Z{%
   Did you consider asymptotic expansions of B near 1
   to get a better handle of this transition?
   """"
+  ----
+  {B} = 1 is special in that the contour~{T} = 0 forms a corner at the origin.
+  This is a peculiarity of the cosinusoidal solution
+  ({T} = 1 − {B} cos {x} cosh {y}).
+  At the same time we have an isolated terminal point at the origin,
+  as discussed earlier (Pages~32--34).
+  ----
+  ----
+  Computer algebra was able to give me closed-form expressions
+  for~{x}(flat) and~{x}(sharp), so I did not pass to asymptotics.
+  ----
 
 10.{#2-3-errors}
   """"{.examiner}
