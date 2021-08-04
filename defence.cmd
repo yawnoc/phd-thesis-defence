@@ -45,6 +45,7 @@
   }
   h1 {
     font-size: 1.4em;
+    margin: 0.3em auto;
     text-align: center;
   }
   h2 {
@@ -56,9 +57,6 @@
   }
   h3 {
     font-size: 1.2em;
-  }
-  h4 {
-    font-size: 1em;
   }
   ol.top-level > li {
     margin-bottom: 1.3em;
@@ -184,8 +182,6 @@ Z{%
 
 
 ## Examiner~1 ##
-
-### Questions ###
 
 ++++++{.top-level}
 1.{#1-summary}
@@ -336,35 +332,11 @@ Z{%
 ++++++
 
 
-### Revisions ###
-
-++++{.top-level}
-1. To be raised at the viva:
-
-  """"{.examiner}
-  [...] a couple of very minor typos [...].
-  """"
-
-2. Suggested (but not mandatory) expansion:
-
-  """"{.examiner}
-  [...]
-  If I were critical I would ask that
-  the candidate extend both Section~1.1 and Chapter~9.
-  [...]
-  However I am not insistent that these modification are made;
-  they are certainly not a deal-breaker by any stretch.
-  """"
-++++
-
-
 
 
 ## Examiner~2 ##
 
-### Questions ###
-
-#### Chapter~1 ####
+### Chapter~1 ###
 
 ++++++{.top-level}
 1.{#2-1-parallel}
@@ -435,7 +407,7 @@ Z{%
   ----
 ++++++
 
-#### Chapter~2 ####
+### Chapter~2 ###
 
 ++++++{.top-level}
 1.{#2-2-orthogonal}
@@ -519,7 +491,7 @@ Z{%
   ''''
 ++++++
 
-#### Chapter~3 ####
+### Chapter~3 ###
 
 ++++++{.top-level}
 1.{#2-3-differentiable}
@@ -716,7 +688,7 @@ Z{%
   ----
 ++++++
 
-#### Chapter~4 ####
+### Chapter~4 ###
 
 ++++++{.top-level}
 1.{#2-4-geometry}
@@ -754,7 +726,7 @@ Z{%
   """"
 ++++++
 
-#### Chapter~5 ####
+### Chapter~5 ###
 
 ++++++{.top-level}
 1.{#2-5-transition}
@@ -775,7 +747,7 @@ Z{%
   """"
 ++++++
 
-#### Chapter~6 ####
+### Chapter~6 ###
 
 ++++++{.top-level}
 1.{#2-6-boundary}
@@ -818,7 +790,7 @@ Z{%
   """"
 ++++++
 
-#### Chapter~7 ####
+### Chapter~7 ###
 
 ++++++{.top-level}
 1.{#2-7-discrepancy}
@@ -861,7 +833,7 @@ Z{%
   """"
 ++++++
 
-#### Chapter~8 ####
+### Chapter~8 ###
 
 ++++++{.top-level}
 1.{#2-8-coordinates}
@@ -900,7 +872,7 @@ Z{%
   """"
 ++++++
 
-#### Chapter~9 ####
+### Chapter~9 ###
 
 ++++++{.top-level}
 1.{#2-9-alternative}
@@ -926,7 +898,7 @@ Z{%
   """"
 ++++++
 
-#### Appendix~C ####
+### Appendix~C ###
 
 ++++++{.top-level}
 1.{#2-c-conformal}
@@ -937,5 +909,3 @@ Z{%
   Can you comment more on this.
   """"
 ++++++
-
-### Revisions ###
