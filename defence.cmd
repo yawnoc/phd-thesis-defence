@@ -745,6 +745,10 @@ Z{%
   Is it more realistic to have a larger circle
   or is the larger enclosed domain more realistic?
   """"
+  ----
+  The relative errors in Figure~4.12 are negative.
+  I should probably redo the plot with absolute values.
+  ----
 
 4.{#2-4-shape}
   """"{.examiner}
