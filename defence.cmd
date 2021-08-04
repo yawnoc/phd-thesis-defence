@@ -194,8 +194,8 @@ Z{%
   """"
   ----
   By 'practically negligible' I mean that
-  the __dimensionless self-viewing ratio~{R} falls below~1%__
-  (which is an arbitrarily chosen cutoff).
+  the __dimensionless self-viewing ratio~{R}__ (equation~(3.24), Page~24)
+  __falls below~1%__ (an arbitrarily chosen cutoff).
   At any point on the boundary, {R}~is the ratio between
   the amount of inbound self-viewing radiation
   (which boundary tracing does *not* account for)
@@ -303,7 +303,8 @@ Z{%
     (the narrative was changed from "alas we have no convex boundaries"
     to "look we can salvage practical results").
   * The __etching of grooves__ in the dip-coating problem.
-    It was quite satisfying to see the numerical verification (Figure~7.23).
+    It was quite satisfying to see the numerical verification
+    (Figure~7.23, Page~128).
   * The __new interpretation__ of the comparison observation (capillarity)
     that ties in with the roughness theory.
     This was very neat, in my opinion.
@@ -366,7 +367,7 @@ Z{%
   From Page~2:
   ----
   """"""{.thesis}
-  [...] and there are three cases <mark>at any given point</mark>:
+  [...] and there are three cases at any given point:
   ++++
   1. If ||[del]{T}|| \> |{F}|, then [...]
   2. If ||[del]{T}|| = |{F}|, then [...]
@@ -573,7 +574,7 @@ Z{%
   Our simple radiation condition [n] [.] [del]{T} = −{T}^4
   only describes outgoing radiation.
   To account for incoming self-viewing radiation,
-  we need a non-local integral term, per~(3.23).
+  we need a non-local integral term, per~(3.23) (Page~24).
   ----
 
 4.{#2-3-images}
